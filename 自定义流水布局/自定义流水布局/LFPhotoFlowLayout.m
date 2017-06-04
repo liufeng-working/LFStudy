@@ -6,13 +6,15 @@
 //  Copyright © 2017年 liufeng. All rights reserved.
 
 /**
- 自定义布局，需要了解以下5个方法
+ 自定义布局，需要了解以下几个方法
  
  - (void)prepareLayout;
  
  - (CGSize)collectionViewContentSize;
  
  - (nullable NSArray<__kindof UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect;
+ 
+ - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath;
  
  - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds;
  
