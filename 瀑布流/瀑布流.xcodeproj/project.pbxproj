@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C2698B1EE434E50052BB9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C2698A1EE434E50052BB9D /* main.m */; };
+		03C2698E1EE434E50052BB9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C2698D1EE434E50052BB9D /* AppDelegate.m */; };
+		03C269911EE434E50052BB9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C269901EE434E50052BB9D /* ViewController.m */; };
+		03C269941EE434E50052BB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C269921EE434E50052BB9D /* Main.storyboard */; };
+		03C269961EE434E50052BB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C269951EE434E50052BB9D /* Assets.xcassets */; };
+		03C269991EE434E50052BB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C269971EE434E50052BB9D /* LaunchScreen.storyboard */; };
+		03C269A21EE4353B0052BB9D /* LFWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C269A11EE4353B0052BB9D /* LFWaterfallLayout.m */; };
+		03C269A61EE450910052BB9D /* LFPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C269A41EE450910052BB9D /* LFPhotoCell.m */; };
+		03C269A71EE450910052BB9D /* LFPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C269A51EE450910052BB9D /* LFPhotoCell.xib */; };
+		185812B4845521DBA02326ED /* libPods-瀑布流.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DADC67A044F6EDFD2B8582 /* libPods-瀑布流.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02F36C35EB5D4B60816D751E /* Pods-瀑布流.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-瀑布流.debug.xcconfig"; path = "Pods/Target Support Files/Pods-瀑布流/Pods-瀑布流.debug.xcconfig"; sourceTree = "<group>"; };
+		03C269861EE434E50052BB9D /* 瀑布流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "瀑布流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C2698A1EE434E50052BB9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03C2698C1EE434E50052BB9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03C2698D1EE434E50052BB9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03C2698F1EE434E50052BB9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03C269901EE434E50052BB9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03C269931EE434E50052BB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C269951EE434E50052BB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C269981EE434E50052BB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C2699A1EE434E50052BB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C269A01EE4353B0052BB9D /* LFWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFWaterfallLayout.h; sourceTree = "<group>"; };
+		03C269A11EE4353B0052BB9D /* LFWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFWaterfallLayout.m; sourceTree = "<group>"; };
+		03C269A31EE450910052BB9D /* LFPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPhotoCell.h; sourceTree = "<group>"; };
+		03C269A41EE450910052BB9D /* LFPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPhotoCell.m; sourceTree = "<group>"; };
+		03C269A51EE450910052BB9D /* LFPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFPhotoCell.xib; sourceTree = "<group>"; };
+		37DADC67A044F6EDFD2B8582 /* libPods-瀑布流.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-瀑布流.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB1EE1E99E023732A7E408C /* Pods-瀑布流.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-瀑布流.release.xcconfig"; path = "Pods/Target Support Files/Pods-瀑布流/Pods-瀑布流.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C269831EE434E50052BB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185812B4845521DBA02326ED /* libPods-瀑布流.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C2697D1EE434E50052BB9D = {
+			isa = PBXGroup;
+			children = (
+				03C269881EE434E50052BB9D /* 瀑布流 */,
+				03C269871EE434E50052BB9D /* Products */,
+				068BC46BC9803BDF22E5D65E /* Pods */,
+				0DE28A9B732B9296E42558F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03C269871EE434E50052BB9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C269861EE434E50052BB9D /* 瀑布流.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C269881EE434E50052BB9D /* 瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				03C269921EE434E50052BB9D /* Main.storyboard */,
+				03C2698C1EE434E50052BB9D /* AppDelegate.h */,
+				03C2698D1EE434E50052BB9D /* AppDelegate.m */,
+				03C2698F1EE434E50052BB9D /* ViewController.h */,
+				03C269901EE434E50052BB9D /* ViewController.m */,
+				03C269A01EE4353B0052BB9D /* LFWaterfallLayout.h */,
+				03C269A11EE4353B0052BB9D /* LFWaterfallLayout.m */,
+				03C269A31EE450910052BB9D /* LFPhotoCell.h */,
+				03C269A41EE450910052BB9D /* LFPhotoCell.m */,
+				03C269A51EE450910052BB9D /* LFPhotoCell.xib */,
+				03C269891EE434E50052BB9D /* Supporting Files */,
+			);
+			path = "瀑布流";
+			sourceTree = "<group>";
+		};
+		03C269891EE434E50052BB9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C269951EE434E50052BB9D /* Assets.xcassets */,
+				03C269971EE434E50052BB9D /* LaunchScreen.storyboard */,
+				03C2699A1EE434E50052BB9D /* Info.plist */,
+				03C2698A1EE434E50052BB9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		068BC46BC9803BDF22E5D65E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02F36C35EB5D4B60816D751E /* Pods-瀑布流.debug.xcconfig */,
+				8EB1EE1E99E023732A7E408C /* Pods-瀑布流.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0DE28A9B732B9296E42558F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37DADC67A044F6EDFD2B8582 /* libPods-瀑布流.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C269851EE434E50052BB9D /* 瀑布流 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C2699D1EE434E50052BB9D /* Build configuration list for PBXNativeTarget "瀑布流" */;
+			buildPhases = (
+				A408068FC375FC3EBBD2BBE6 /* [CP] Check Pods Manifest.lock */,
+				03C269821EE434E50052BB9D /* Sources */,
+				03C269831EE434E50052BB9D /* Frameworks */,
+				03C269841EE434E50052BB9D /* Resources */,
+				B93205C7147B59B3C673B30A /* [CP] Embed Pods Frameworks */,
+				E2720B60F1B7CC66C2E49756 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "瀑布流";
+			productName = "瀑布流";
+			productReference = 03C269861EE434E50052BB9D /* 瀑布流.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C2697E1EE434E50052BB9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liufeng;
+				TargetAttributes = {
+					03C269851EE434E50052BB9D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QDT8L8LPPU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 03C269811EE434E50052BB9D /* Build configuration list for PBXProject "瀑布流" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C2697D1EE434E50052BB9D;
+			productRefGroup = 03C269871EE434E50052BB9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C269851EE434E50052BB9D /* 瀑布流 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C269841EE434E50052BB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C269A71EE450910052BB9D /* LFPhotoCell.xib in Resources */,
+				03C269991EE434E50052BB9D /* LaunchScreen.storyboard in Resources */,
+				03C269961EE434E50052BB9D /* Assets.xcassets in Resources */,
+				03C269941EE434E50052BB9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A408068FC375FC3EBBD2BBE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B93205C7147B59B3C673B30A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-瀑布流/Pods-瀑布流-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2720B60F1B7CC66C2E49756 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-瀑布流/Pods-瀑布流-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C269821EE434E50052BB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C269A21EE4353B0052BB9D /* LFWaterfallLayout.m in Sources */,
+				03C269911EE434E50052BB9D /* ViewController.m in Sources */,
+				03C269A61EE450910052BB9D /* LFPhotoCell.m in Sources */,
+				03C2698E1EE434E50052BB9D /* AppDelegate.m in Sources */,
+				03C2698B1EE434E50052BB9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03C269921EE434E50052BB9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C269931EE434E50052BB9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03C269971EE434E50052BB9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C269981EE434E50052BB9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C2699B1EE434E50052BB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03C2699C1EE434E50052BB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C2699E1EE434E50052BB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F36C35EB5D4B60816D751E /* Pods-瀑布流.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				INFOPLIST_FILE = "瀑布流/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaituo.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03C2699F1EE434E50052BB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB1EE1E99E023732A7E408C /* Pods-瀑布流.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				INFOPLIST_FILE = "瀑布流/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaituo.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C269811EE434E50052BB9D /* Build configuration list for PBXProject "瀑布流" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C2699B1EE434E50052BB9D /* Debug */,
+				03C2699C1EE434E50052BB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C2699D1EE434E50052BB9D /* Build configuration list for PBXNativeTarget "瀑布流" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C2699E1EE434E50052BB9D /* Debug */,
+				03C2699F1EE434E50052BB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C2697E1EE434E50052BB9D /* Project object */;
+}
