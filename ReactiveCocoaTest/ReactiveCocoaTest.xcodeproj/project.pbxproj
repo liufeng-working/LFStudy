@@ -22,6 +22,11 @@
 		03C612151EE01BD00066B22E /* LFNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C612121EE01BD00066B22E /* LFNotification.m */; };
 		03C612161EE01BD00066B22E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C612141EE01BD00066B22E /* MBProgressHUD.m */; };
 		03C612191EE01E080066B22E /* LFLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C612181EE01E080066B22E /* LFLoginViewModel.m */; };
+		03F475DA1EEE20B100D64932 /* LFRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F475D91EEE20B100D64932 /* LFRACViewController.m */; };
+		03F475DD1EEE20DB00D64932 /* RAC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F475DC1EEE20DB00D64932 /* RAC.storyboard */; };
+		03F475E01EEE275000D64932 /* LFCaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F475DF1EEE275000D64932 /* LFCaculatorMaker.m */; };
+		03F475E31EEE28AF00D64932 /* NSObject+LFCaculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F475E21EEE28AF00D64932 /* NSObject+LFCaculator.m */; };
+		03F475E61EEE2C5F00D64932 /* LFCaculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F475E51EEE2C5F00D64932 /* LFCaculator.m */; };
 		6D5088A4ECB33280AE28FA2A /* libPods-ReactiveCocoaTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C72D574A14BB1311A74AAB /* libPods-ReactiveCocoaTest.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +57,15 @@
 		03C612141EE01BD00066B22E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		03C612171EE01E080066B22E /* LFLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLoginViewModel.h; sourceTree = "<group>"; };
 		03C612181EE01E080066B22E /* LFLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLoginViewModel.m; sourceTree = "<group>"; };
+		03F475D81EEE20B100D64932 /* LFRACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFRACViewController.h; sourceTree = "<group>"; };
+		03F475D91EEE20B100D64932 /* LFRACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFRACViewController.m; sourceTree = "<group>"; };
+		03F475DC1EEE20DB00D64932 /* RAC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RAC.storyboard; sourceTree = "<group>"; };
+		03F475DE1EEE275000D64932 /* LFCaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCaculatorMaker.h; sourceTree = "<group>"; };
+		03F475DF1EEE275000D64932 /* LFCaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCaculatorMaker.m; sourceTree = "<group>"; };
+		03F475E11EEE28AF00D64932 /* NSObject+LFCaculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LFCaculator.h"; sourceTree = "<group>"; };
+		03F475E21EEE28AF00D64932 /* NSObject+LFCaculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LFCaculator.m"; sourceTree = "<group>"; };
+		03F475E41EEE2C5F00D64932 /* LFCaculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCaculator.h; sourceTree = "<group>"; };
+		03F475E51EEE2C5F00D64932 /* LFCaculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCaculator.m; sourceTree = "<group>"; };
 		65C72D574A14BB1311A74AAB /* libPods-ReactiveCocoaTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4E51AB0091E38244C6B410 /* Pods-ReactiveCocoaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaTest/Pods-ReactiveCocoaTest.release.xcconfig"; sourceTree = "<group>"; };
 		D374A3D43A573BA322A38503 /* Pods-ReactiveCocoaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaTest/Pods-ReactiveCocoaTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,11 +106,8 @@
 			children = (
 				035435A01EDDBD57006CAD45 /* AppDelegate.h */,
 				035435A11EDDBD57006CAD45 /* AppDelegate.m */,
-				03C6120A1EE016EA0066B22E /* Login.storyboard */,
-				03C6120D1EE018180066B22E /* LFLoginViewController.h */,
-				03C6120E1EE018180066B22E /* LFLoginViewController.m */,
-				03C612171EE01E080066B22E /* LFLoginViewModel.h */,
-				03C612181EE01E080066B22E /* LFLoginViewModel.m */,
+				03F475DB1EEE20BA00D64932 /* RAC */,
+				03F475D71EEE208D00D64932 /* Login */,
 				03C6120C1EE016FC0066B22E /* Main */,
 				03C612101EE01BD00066B22E /* LFNotification */,
 				0354359D1EDDBD57006CAD45 /* Supporting Files */,
@@ -141,6 +152,34 @@
 				03C612141EE01BD00066B22E /* MBProgressHUD.m */,
 			);
 			path = LFNotification;
+			sourceTree = "<group>";
+		};
+		03F475D71EEE208D00D64932 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				03C6120A1EE016EA0066B22E /* Login.storyboard */,
+				03C6120D1EE018180066B22E /* LFLoginViewController.h */,
+				03C6120E1EE018180066B22E /* LFLoginViewController.m */,
+				03C612171EE01E080066B22E /* LFLoginViewModel.h */,
+				03C612181EE01E080066B22E /* LFLoginViewModel.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		03F475DB1EEE20BA00D64932 /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				03F475DC1EEE20DB00D64932 /* RAC.storyboard */,
+				03F475D81EEE20B100D64932 /* LFRACViewController.h */,
+				03F475D91EEE20B100D64932 /* LFRACViewController.m */,
+				03F475DE1EEE275000D64932 /* LFCaculatorMaker.h */,
+				03F475DF1EEE275000D64932 /* LFCaculatorMaker.m */,
+				03F475E11EEE28AF00D64932 /* NSObject+LFCaculator.h */,
+				03F475E21EEE28AF00D64932 /* NSObject+LFCaculator.m */,
+				03F475E41EEE2C5F00D64932 /* LFCaculator.h */,
+				03F475E51EEE2C5F00D64932 /* LFCaculator.m */,
+			);
+			name = RAC;
 			sourceTree = "<group>";
 		};
 		24634EAAE1E23B5EBAFFFD36 /* Frameworks */ = {
@@ -226,6 +265,7 @@
 				035435AD1EDDBD57006CAD45 /* LaunchScreen.storyboard in Resources */,
 				035435AA1EDDBD57006CAD45 /* Assets.xcassets in Resources */,
 				035435C41EDE041D006CAD45 /* flag.plist in Resources */,
+				03F475DD1EEE20DB00D64932 /* RAC.storyboard in Resources */,
 				03C6120B1EE016EA0066B22E /* Login.storyboard in Resources */,
 				035435A81EDDBD57006CAD45 /* Main.storyboard in Resources */,
 			);
@@ -287,13 +327,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C6120F1EE018180066B22E /* LFLoginViewController.m in Sources */,
+				03F475DA1EEE20B100D64932 /* LFRACViewController.m in Sources */,
 				035435BC1EDDE8CC006CAD45 /* LFRedView.m in Sources */,
 				035435A51EDDBD57006CAD45 /* ViewController.m in Sources */,
 				035435C21EDE0370006CAD45 /* LFFlag.m in Sources */,
 				03C612191EE01E080066B22E /* LFLoginViewModel.m in Sources */,
+				03F475E61EEE2C5F00D64932 /* LFCaculator.m in Sources */,
 				03C612161EE01BD00066B22E /* MBProgressHUD.m in Sources */,
 				03C612151EE01BD00066B22E /* LFNotification.m in Sources */,
 				035435A21EDDBD57006CAD45 /* AppDelegate.m in Sources */,
+				03F475E31EEE28AF00D64932 /* NSObject+LFCaculator.m in Sources */,
+				03F475E01EEE275000D64932 /* LFCaculatorMaker.m in Sources */,
 				037AF7011EDEA34A00F65A12 /* LFModelViewController.m in Sources */,
 				0354359F1EDDBD57006CAD45 /* main.m in Sources */,
 			);

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BZN-gh-1Zo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="PXo-u0-1ib">
+                                <rect key="frame" x="152.5" y="28" width="70" height="70"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEN-CH-slK">
+                                <rect key="frame" x="50" y="539" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PXo-u0-1ib" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="4VC-Iq-lkB"/>
+                            <constraint firstItem="PXo-u0-1ib" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YoK-bg-jKl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="PXo-u0-1ib" id="3X1-uO-hwO"/>
+                        <outlet property="redView" destination="zEN-CH-slK" id="133-IR-Pkz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Watch View Controller-->
+        <scene sceneID="wAD-fF-ONx">
+            <objects>
+                <viewController id="Jvq-kd-SWD" customClass="LFWatchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="egf-nU-98J"/>
+                        <viewControllerLayoutGuide type="bottom" id="9We-8K-CUX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HMg-Ga-7j1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timg" translatesAutoresizingMaskIntoConstraints="NO" id="54M-9F-cSe">
+                                <rect key="frame" x="107.5" y="253.5" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="7I9-Dl-Bl4"/>
+                                    <constraint firstAttribute="height" constant="160" id="lSR-GH-1xQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="54M-9F-cSe" firstAttribute="centerX" secondItem="HMg-Ga-7j1" secondAttribute="centerX" id="qkD-4j-NGj"/>
+                            <constraint firstItem="54M-9F-cSe" firstAttribute="centerY" secondItem="HMg-Ga-7j1" secondAttribute="centerY" id="ynb-0D-hO0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clockView" destination="54M-9F-cSe" id="ADr-48-7Tf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GI9-78-wNL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="38"/>
+        </scene>
+        <!--Core Animation View Controller-->
+        <scene sceneID="IaI-SI-zFL">
+            <objects>
+                <viewController id="BZN-gh-1Zo" customClass="LFCoreAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s3u-r0-pnV"/>
+                        <viewControllerLayoutGuide type="bottom" id="lNc-kS-7QH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="njk-Mf-2Rx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PDk-4S-sEi">
+                                <rect key="frame" x="67" y="112" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="hy6-8I-sUZ">
+                                <rect key="frame" x="167" y="421" width="40" height="40"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lNc-kS-7QH" firstAttribute="top" secondItem="hy6-8I-sUZ" secondAttribute="bottom" constant="206" id="XEK-pp-tKQ"/>
+                            <constraint firstItem="hy6-8I-sUZ" firstAttribute="centerX" secondItem="njk-Mf-2Rx" secondAttribute="centerX" id="q2r-Qt-pOf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="hy6-8I-sUZ" id="aYT-vn-NXv"/>
+                        <outlet property="redView" destination="PDk-4S-sEi" id="zpg-4q-7Vp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T5z-Gt-y3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1631" y="37"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="40" height="40"/>
+        <image name="4" width="70" height="70"/>
+        <image name="timg" width="160" height="160"/>
+    </resources>
+</document>
