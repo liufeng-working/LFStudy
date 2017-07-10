@@ -4,7 +4,7 @@
 //
 //  Created by 刘丰 on 2017/7/9.
 //  Copyright © 2017年 liufeng. All rights reserved.
-//
+//  git客户端使用
 
 #import "AppDelegate.h"
 
