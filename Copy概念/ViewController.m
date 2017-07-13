@@ -32,6 +32,8 @@
     [str appendString:@" xihuan chenbei"];
     NSLog(@"%@---%@---%@", str, cStr, mStr);
 }
+- (IBAction)save:(id)sender {
+}
 
 - (void)test
 {
