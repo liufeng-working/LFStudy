@@ -48,7 +48,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSLog(@"%@->touchesBegan, %@", self.class, self.nextResponder.class);
+    NSLog(@"%@->touchesBegan, %@, %d", self.class, self.nextResponder.class, self.isFirstResponder);
     [super touchesBegan:touches withEvent:event];
 }
 
