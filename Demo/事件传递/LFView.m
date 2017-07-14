@@ -13,7 +13,32 @@
 //找到最适合接收事件的view
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     
-    return [super hitTest:point withEvent:event];
+    //1.判断自己能否接收事件
+    if (self.userInteractionEnabled == NO ||
+        self.hidden == YES ||
+        self.alpha <= 0.01) {
+        return nil;
+    }
+    
+    //2.判断当前点是否在自己身上
+    if (![self pointInside:point withEvent:event]) {
+        return nil;
+    }
+    //3.从后往前遍历自己的子控件，让子控件重复前两步动作
+    __block UIView *hitView = nil;
+    [self.subviews enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        CGPoint subPoint = [self convertPoint:point toView:obj];
+        hitView = [obj hitTest:subPoint withEvent:event];
+        if (hitView) {
+            *stop = YES;
+        }
+    }];
+    
+    if (hitView) {
+        return hitView;
+    }else {
+        return self;
+    }
 }
 
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
