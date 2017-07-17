@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  LFStudy
+//  下载系统提供的中文字体
 //
-//  Created by 刘丰 on 2017/7/9.
+//  Created by 刘丰 on 2017/7/17.
 //  Copyright © 2017年 liufeng. All rights reserved.
 //
 
@@ -19,14 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (IBAction)changeFontSize:(UIBarButtonItem *)sender {
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-- (IBAction)save:(id)sender {
 }
 
 
