@@ -64,6 +64,8 @@
     self.c.name = @"C";
     [self.c start];
 }
+- (IBAction)start:(id)sender {
+}
 
 - (void)saleTicket
 {

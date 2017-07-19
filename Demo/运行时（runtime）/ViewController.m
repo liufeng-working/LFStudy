@@ -19,14 +19,42 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    Class newClass = objc_allocateClassPair([UIView class], "LFView", 0);
+    class_addMethod(newClass, @selector(report), (IMP)reportF, "v@:");
+    objc_registerClassPair(newClass);
+    
+    id instance = [[newClass alloc] init];
+    [instance report];
+    
+//    class_replaceMethod(<#__unsafe_unretained Class cls#>, <#SEL name#>, <#IMP imp#>, <#const char *types#>)
+//    method_exchangeImplementations(<#Method m1#>, <#Method m2#>)
+//    method_setImplementation(<#Method m#>, <#IMP imp#>)
+    
+    NSString *str = @"<table border=\"1\" cellspacing=\"0\" cellpadding=\"2\" bordercolor=\"#E8E8E8\">";
+    NSLog(@"%@", str);
+    
+    
+}
+
+void reportF(id self, SEL _cmd)
+{
+    NSLog(@"this object is %p", self);
+    NSLog(@"class:%@, superClass:%@", [self class], [self superclass]);
+}
+
+- (void)report
+{
+    NSLog(@"%s", __func__);
+}
+
+- (void)test
+{
     BOOL is = objc_msgSend(self, @selector(runtime));
     NSLog(@"%d", is);
     @synchronized (self) {
         char *buf1 = @encode(int **);
         NSLog(@"%s", buf1);
     }
-    
-    
 }
 
 - (BOOL)runtime

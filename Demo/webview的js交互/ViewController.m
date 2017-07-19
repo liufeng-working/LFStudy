@@ -31,15 +31,15 @@ typedef NS_ENUM(NSInteger, test) {
     // Do any additional setup after loading the view, typically from a nib.
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]]];
+    [self.webView loadHTMLString:[self demoFormatWithName:@"liufeng" value:@"学习"] baseURL:nil];
     
 }
 
 - (IBAction)changeFontSize:(id)sender
 {
-    CGFloat size = 10;
-    NSString *js = [NSString stringWithFormat:@"setArticleFontSize(%f)",size];
-    [self.webView stringByEvaluatingJavaScriptFromString:js];
+    NSString *js = [NSString stringWithFormat:@"alert('done')"];
+    NSString *result = [self.webView stringByEvaluatingJavaScriptFromString:js];
+    NSLog(@"result -> %@", result);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -47,5 +47,10 @@ typedef NS_ENUM(NSInteger, test) {
     // Dispose of any resources that can be recreated.
 }
 
+- (NSString *)demoFormatWithName:(NSString *)name value:(NSString *)value
+{
+    NSString *html = @"<HTML><HEAD></HEAD><BODY><H1>%@</H1><P>%@</P></BODY></HTML>";
+    return [NSString stringWithFormat:html, name, value];
+}
 
 @end
