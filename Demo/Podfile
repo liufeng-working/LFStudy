@@ -85,6 +85,7 @@ target '导航控制器' do
   # use_frameworks!
 
   # Pods for 导航控制器
+pod 'SDWebImage', '~> 4.0.0'
 
 end
 

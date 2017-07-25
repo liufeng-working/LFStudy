@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LFRedViewController.h"
 
 @interface ViewController ()
 
@@ -19,11 +20,12 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    LFRedViewController *redVC = [LFRedViewController new];
+//    [self showViewController:redVC sender:nil];
+    redVC.modalPresentationStyle = UIModalPresentationCustom;
+//    redVC.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+    [self presentViewController:redVC animated:NO completion:nil];
 }
-
 
 @end

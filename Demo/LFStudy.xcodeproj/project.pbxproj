@@ -39,6 +39,9 @@
 		03134F811F1F3489007AD43B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03134F7F1F1F3489007AD43B /* Main.storyboard */; };
 		03134F831F1F3489007AD43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03134F821F1F3489007AD43B /* Assets.xcassets */; };
 		03134F861F1F3489007AD43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03134F841F1F3489007AD43B /* LaunchScreen.storyboard */; };
+		03134F8D1F1F397D007AD43B /* LFTansitionNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03134F8C1F1F397D007AD43B /* LFTansitionNavigationController.m */; };
+		03134F901F1F399C007AD43B /* LFTranstionTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03134F8F1F1F399C007AD43B /* LFTranstionTabBarController.m */; };
+		03134F931F1F51F9007AD43B /* LFRedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03134F921F1F51F9007AD43B /* LFRedViewController.m */; };
 		032DE2B51F1C456600A169DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DE2B41F1C456600A169DC /* main.m */; };
 		032DE2B81F1C456600A169DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DE2B71F1C456600A169DC /* AppDelegate.m */; };
 		032DE2BB1F1C456600A169DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DE2BA1F1C456600A169DC /* ViewController.m */; };
@@ -233,6 +236,12 @@
 		03134F821F1F3489007AD43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03134F851F1F3489007AD43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03134F871F1F3489007AD43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03134F8B1F1F397D007AD43B /* LFTansitionNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTansitionNavigationController.h; sourceTree = "<group>"; };
+		03134F8C1F1F397D007AD43B /* LFTansitionNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTansitionNavigationController.m; sourceTree = "<group>"; };
+		03134F8E1F1F399C007AD43B /* LFTranstionTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTranstionTabBarController.h; sourceTree = "<group>"; };
+		03134F8F1F1F399C007AD43B /* LFTranstionTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTranstionTabBarController.m; sourceTree = "<group>"; };
+		03134F911F1F51F9007AD43B /* LFRedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFRedViewController.h; sourceTree = "<group>"; };
+		03134F921F1F51F9007AD43B /* LFRedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFRedViewController.m; sourceTree = "<group>"; };
 		032DE2B11F1C456600A169DC /* webview的js交互.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webview的js交互.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		032DE2B41F1C456600A169DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		032DE2B61F1C456600A169DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -775,7 +784,13 @@
 				03134F7A1F1F3489007AD43B /* AppDelegate.m */,
 				03134F7C1F1F3489007AD43B /* ViewController.h */,
 				03134F7D1F1F3489007AD43B /* ViewController.m */,
+				03134F911F1F51F9007AD43B /* LFRedViewController.h */,
+				03134F921F1F51F9007AD43B /* LFRedViewController.m */,
 				03134F7F1F1F3489007AD43B /* Main.storyboard */,
+				03134F8E1F1F399C007AD43B /* LFTranstionTabBarController.h */,
+				03134F8F1F1F399C007AD43B /* LFTranstionTabBarController.m */,
+				03134F8B1F1F397D007AD43B /* LFTansitionNavigationController.h */,
+				03134F8C1F1F397D007AD43B /* LFTansitionNavigationController.m */,
 				03134F821F1F3489007AD43B /* Assets.xcassets */,
 				03134F841F1F3489007AD43B /* LaunchScreen.storyboard */,
 				03134F871F1F3489007AD43B /* Info.plist */,
@@ -3091,7 +3106,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03134F931F1F51F9007AD43B /* LFRedViewController.m in Sources */,
 				03134F7E1F1F3489007AD43B /* ViewController.m in Sources */,
+				03134F8D1F1F397D007AD43B /* LFTansitionNavigationController.m in Sources */,
+				03134F901F1F399C007AD43B /* LFTranstionTabBarController.m in Sources */,
 				03134F7B1F1F3489007AD43B /* AppDelegate.m in Sources */,
 				03134F781F1F3489007AD43B /* main.m in Sources */,
 			);
@@ -4353,6 +4371,7 @@
 				03134F891F1F3489007AD43B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		032DE2C71F1C456600A169DC /* Build configuration list for PBXNativeTarget "webview的js交互" */ = {
 			isa = XCConfigurationList;
