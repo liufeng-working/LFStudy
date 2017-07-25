@@ -129,6 +129,7 @@
 		03C947921F1A58EA00A26470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C947901F1A58EA00A26470 /* Main.storyboard */; };
 		03C947941F1A58EA00A26470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C947931F1A58EA00A26470 /* Assets.xcassets */; };
 		03C947971F1A58EA00A26470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C947951F1A58EA00A26470 /* LaunchScreen.storyboard */; };
+		03C9F13E1F2721E500BEC131 /* LFAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9F13D1F2721E500BEC131 /* LFAnimationController.m */; };
 		03CB34C21F178CFC00E224A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CB34C11F178CFC00E224A8 /* main.m */; };
 		03CB34C51F178CFC00E224A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CB34C41F178CFC00E224A8 /* AppDelegate.m */; };
 		03CB34C81F178CFC00E224A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CB34C71F178CFC00E224A8 /* ViewController.m */; };
@@ -391,6 +392,8 @@
 		03C947931F1A58EA00A26470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03C947961F1A58EA00A26470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C947981F1A58EA00A26470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C9F13C1F2721E500BEC131 /* LFAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAnimationController.h; sourceTree = "<group>"; };
+		03C9F13D1F2721E500BEC131 /* LFAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAnimationController.m; sourceTree = "<group>"; };
 		03CB34BE1F178CFC00E224A8 /* strong字符串.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strong字符串.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CB34C11F178CFC00E224A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03CB34C31F178CFC00E224A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -786,6 +789,8 @@
 				03134F7D1F1F3489007AD43B /* ViewController.m */,
 				03134F911F1F51F9007AD43B /* LFRedViewController.h */,
 				03134F921F1F51F9007AD43B /* LFRedViewController.m */,
+				03C9F13C1F2721E500BEC131 /* LFAnimationController.h */,
+				03C9F13D1F2721E500BEC131 /* LFAnimationController.m */,
 				03134F7F1F1F3489007AD43B /* Main.storyboard */,
 				03134F8E1F1F399C007AD43B /* LFTranstionTabBarController.h */,
 				03134F8F1F1F399C007AD43B /* LFTranstionTabBarController.m */,
@@ -1839,7 +1844,7 @@
 					};
 					03134F731F1F3489007AD43B = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = QDT8L8LPPU;
+						DevelopmentTeam = JZ8BCQ3SD3;
 						ProvisioningStyle = Automatic;
 					};
 					032DE2B01F1C456600A169DC = {
@@ -3112,6 +3117,7 @@
 				03134F901F1F399C007AD43B /* LFTranstionTabBarController.m in Sources */,
 				03134F7B1F1F3489007AD43B /* AppDelegate.m in Sources */,
 				03134F781F1F3489007AD43B /* main.m in Sources */,
+				03C9F13E1F2721E500BEC131 /* LFAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3765,8 +3771,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				DEVELOPMENT_TEAM = JZ8BCQ3SD3;
 				INFOPLIST_FILE = transition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaituo.transition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3777,8 +3784,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				DEVELOPMENT_TEAM = JZ8BCQ3SD3;
 				INFOPLIST_FILE = transition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaituo.transition;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,7 +8,7 @@
 
 #import "LFRedViewController.h"
 
-@interface LFRedViewController ()<UIViewControllerAnimatedTransitioning>
+@interface LFRedViewController ()
 
 @end
 
@@ -17,52 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor yellowColor];
 }
 
-#pragma mark -
-#pragma mark - UIViewControllerTransitioningDelegate
-- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
-    return self;
-}
-
-- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
-    return self;
-}
-
-//- (nullable id <UIViewControllerInteractiveTransitioning>)interactionControllerForPresentation:(id <UIViewControllerAnimatedTransitioning>)animator {
-//    return nil;
-//}
-
-//- (nullable id <UIViewControllerInteractiveTransitioning>)interactionControllerForDismissal:(id <UIViewControllerAnimatedTransitioning>)animator {
-//    return nil;
-//}
-
-//- (nullable UIPresentationController *)presentationControllerForPresentedViewController:(UIViewController *)presented presentingViewController:(nullable UIViewController *)presenting sourceViewController:(UIViewController *)source NS_AVAILABLE_IOS(8_0) {
-//    return nil;
-//}
-
-#pragma mark -
-#pragma mark - UIViewControllerAnimatedTransitioning
-- (NSTimeInterval)transitionDuration:(nullable id <UIViewControllerContextTransitioning>)transitionContext {
-    return 0.25;
-}
-
-- (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
-    UIView *containerView = transitionContext.containerView;
-    UIView *fromView = [transitionContext viewForKey:UITransitionContextFromViewKey];
-    UIView *toView = [transitionContext viewForKey:UITransitionContextToViewKey];
-    
-    [containerView addSubview:toView];
-    
-    CGFloat duration = [self transitionDuration:transitionContext];
-    
-    [UIView animateWithDuration:duration animations:^{
-        
-    } completion:^(BOOL finihed) {
-        BOOL isCancel = [transitionContext transitionWasCancelled];
-        [transitionContext completeTransition:isCancel];
-    }];
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"%@", [self targetForAction:@selector(touchesBegan:withEvent:) withSender:nil]);
+    NSLog(@"%@", [self targetViewControllerForAction:@selector(touchesBegan:withEvent:) sender:nil]);
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

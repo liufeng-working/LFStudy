@@ -8,7 +8,7 @@
 
 #import "LFTansitionNavigationController.h"
 
-@interface LFTansitionNavigationController ()
+@interface LFTansitionNavigationController ()<UINavigationControllerDelegate>
 
 @end
 
@@ -16,8 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.delegate = self;
+ 
 }
 
 - (void)didReceiveMemoryWarning {

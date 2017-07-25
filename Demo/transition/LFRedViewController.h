@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LFRedViewController : UIViewController<UIViewControllerTransitioningDelegate>
+@interface LFRedViewController : UIViewController
 
 @end
