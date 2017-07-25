@@ -10,12 +10,9 @@
 
 @interface ViewController ()
 
-@property(nonatomic,strong) UIView *view;
-
 @end
 
 @implementation ViewController
-@dynamic view;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
