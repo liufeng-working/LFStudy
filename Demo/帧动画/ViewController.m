@@ -7,11 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "LFMoveButton.h"
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
+@property(nonatomic,weak) LFMoveButton *btn;
 
 @end
 
@@ -19,8 +21,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
+    LFMoveButton *btn = [[LFMoveButton alloc] initWithFrame:CGRectMake(50, 120, 100, 50)];
+    btn.backgroundColor = [UIColor redColor];
+    [btn setTitle:@"返回" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    _btn = btn;
+}
+
+- (void)click
+{
+    NSLog(@"%@", [self targetForAction:@selector(touchesBegan:withEvent:) withSender:nil]);
+    NSLog(@"%@", [self targetViewControllerForAction:@selector(touchesBegan:withEvent:) sender:nil]);
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

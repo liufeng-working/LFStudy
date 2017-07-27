@@ -48,6 +48,7 @@
 		032DE2BE1F1C456600A169DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032DE2BC1F1C456600A169DC /* Main.storyboard */; };
 		032DE2C01F1C456600A169DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032DE2BF1F1C456600A169DC /* Assets.xcassets */; };
 		032DE2C31F1C456600A169DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032DE2C11F1C456600A169DC /* LaunchScreen.storyboard */; };
+		0331CF011F283894001D66FC /* LFSlipeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0331CF001F283894001D66FC /* LFSlipeAnimationController.m */; };
 		033F15D41F1C9CF4000F51C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F15D31F1C9CF4000F51C5 /* main.m */; };
 		033F15D71F1C9CF4000F51C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F15D61F1C9CF4000F51C5 /* AppDelegate.m */; };
 		033F15DA1F1C9CF4000F51C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F15D91F1C9CF4000F51C5 /* ViewController.m */; };
@@ -162,6 +163,13 @@
 		03D3263A1F14EED000B174C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D326381F14EED000B174C5 /* Main.storyboard */; };
 		03D3263C1F14EED000B174C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D3263B1F14EED000B174C5 /* Assets.xcassets */; };
 		03D3263F1F14EED000B174C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D3263D1F14EED000B174C5 /* LaunchScreen.storyboard */; };
+		03D9815E1F29941200688F63 /* LFMoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D9815D1F29941200688F63 /* LFMoveButton.m */; };
+		03E87AE31F29D5EF009F1A6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E87AE21F29D5EF009F1A6F /* main.m */; };
+		03E87AE61F29D5EF009F1A6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E87AE51F29D5EF009F1A6F /* AppDelegate.m */; };
+		03E87AE91F29D5EF009F1A6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E87AE81F29D5EF009F1A6F /* ViewController.m */; };
+		03E87AEC1F29D5EF009F1A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E87AEA1F29D5EF009F1A6F /* Main.storyboard */; };
+		03E87AEE1F29D5EF009F1A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E87AED1F29D5EF009F1A6F /* Assets.xcassets */; };
+		03E87AF11F29D5EF009F1A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E87AEF1F29D5EF009F1A6F /* LaunchScreen.storyboard */; };
 		118B1A5B8DE7B9D1453B922F /* libPods-非主流架构.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A617F8772F20822141EE04 /* libPods-非主流架构.a */; };
 		1C2B758074797236D3B1DE1C /* libPods-NSOperation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2A116B2BEAE4BC0C4BA3A9 /* libPods-NSOperation.a */; };
 		61876340B8475037C08E61CB /* libPods-strong字符串.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5472D71532135A24A38965B /* libPods-strong字符串.a */; };
@@ -253,6 +261,8 @@
 		032DE2BF1F1C456600A169DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		032DE2C21F1C456600A169DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		032DE2C41F1C456600A169DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0331CEFF1F283894001D66FC /* LFSlipeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSlipeAnimationController.h; sourceTree = "<group>"; };
+		0331CF001F283894001D66FC /* LFSlipeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSlipeAnimationController.m; sourceTree = "<group>"; };
 		033F15D01F1C9CF4000F51C5 /* 下载系统提供的中文字体.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "下载系统提供的中文字体.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		033F15D31F1C9CF4000F51C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		033F15D51F1C9CF4000F51C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -448,6 +458,18 @@
 		03D3263B1F14EED000B174C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03D3263E1F14EED000B174C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03D326401F14EED000B174C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D9815C1F29941200688F63 /* LFMoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFMoveButton.h; sourceTree = "<group>"; };
+		03D9815D1F29941200688F63 /* LFMoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFMoveButton.m; sourceTree = "<group>"; };
+		03E87ADF1F29D5EF009F1A6F /* 布局转场.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "布局转场.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E87AE21F29D5EF009F1A6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03E87AE41F29D5EF009F1A6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03E87AE51F29D5EF009F1A6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03E87AE71F29D5EF009F1A6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03E87AE81F29D5EF009F1A6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03E87AEB1F29D5EF009F1A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E87AED1F29D5EF009F1A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E87AF01F29D5EF009F1A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03E87AF21F29D5EF009F1A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0456E02D1A34410356C138AC /* Pods-控件的拖拽.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-控件的拖拽.release.xcconfig"; path = "Pods/Target Support Files/Pods-控件的拖拽/Pods-控件的拖拽.release.xcconfig"; sourceTree = "<group>"; };
 		0477E84D38411B298E93DABD /* libPods-多线程.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-多线程.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		067871876EE8AC07C9A64AEE /* Pods-导航控制器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-导航控制器.release.xcconfig"; path = "Pods/Target Support Files/Pods-导航控制器/Pods-导航控制器.release.xcconfig"; sourceTree = "<group>"; };
@@ -677,6 +699,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03E87ADC1F29D5EF009F1A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -791,6 +820,8 @@
 				03134F921F1F51F9007AD43B /* LFRedViewController.m */,
 				03C9F13C1F2721E500BEC131 /* LFAnimationController.h */,
 				03C9F13D1F2721E500BEC131 /* LFAnimationController.m */,
+				0331CEFF1F283894001D66FC /* LFSlipeAnimationController.h */,
+				0331CF001F283894001D66FC /* LFSlipeAnimationController.m */,
 				03134F7F1F1F3489007AD43B /* Main.storyboard */,
 				03134F8E1F1F399C007AD43B /* LFTranstionTabBarController.h */,
 				03134F8F1F1F399C007AD43B /* LFTranstionTabBarController.m */,
@@ -1080,6 +1111,7 @@
 				03076BC51F1D93080020EDED /* CoreText */,
 				03C8191D1F1E2B3300172958 /* 网络请求 */,
 				03134F751F1F3489007AD43B /* transition */,
+				03E87AE01F29D5EF009F1A6F /* 布局转场 */,
 				03C8858B1F126CD900E2FE42 /* Products */,
 				9DC2D35031706CC0668265A0 /* Pods */,
 				E91A2DA88B00EA7E328DE42F /* Frameworks */,
@@ -1111,6 +1143,7 @@
 				03076BC41F1D93080020EDED /* CoreText.app */,
 				03C8191C1F1E2B3300172958 /* 网络请求.app */,
 				03134F741F1F3489007AD43B /* transition.app */,
+				03E87ADF1F29D5EF009F1A6F /* 布局转场.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1170,6 +1203,8 @@
 				03C9478B1F1A58EA00A26470 /* AppDelegate.m */,
 				03C9478D1F1A58EA00A26470 /* ViewController.h */,
 				03C9478E1F1A58EA00A26470 /* ViewController.m */,
+				03D9815C1F29941200688F63 /* LFMoveButton.h */,
+				03D9815D1F29941200688F63 /* LFMoveButton.m */,
 				03C947901F1A58EA00A26470 /* Main.storyboard */,
 				03C947931F1A58EA00A26470 /* Assets.xcassets */,
 				03C947951F1A58EA00A26470 /* LaunchScreen.storyboard */,
@@ -1309,6 +1344,30 @@
 			isa = PBXGroup;
 			children = (
 				03D326301F14EED000B174C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03E87AE01F29D5EF009F1A6F /* 布局转场 */ = {
+			isa = PBXGroup;
+			children = (
+				03E87AE41F29D5EF009F1A6F /* AppDelegate.h */,
+				03E87AE51F29D5EF009F1A6F /* AppDelegate.m */,
+				03E87AE71F29D5EF009F1A6F /* ViewController.h */,
+				03E87AE81F29D5EF009F1A6F /* ViewController.m */,
+				03E87AEA1F29D5EF009F1A6F /* Main.storyboard */,
+				03E87AED1F29D5EF009F1A6F /* Assets.xcassets */,
+				03E87AEF1F29D5EF009F1A6F /* LaunchScreen.storyboard */,
+				03E87AF21F29D5EF009F1A6F /* Info.plist */,
+				03E87AE11F29D5EF009F1A6F /* Supporting Files */,
+			);
+			path = "布局转场";
+			sourceTree = "<group>";
+		};
+		03E87AE11F29D5EF009F1A6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E87AE21F29D5EF009F1A6F /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1812,6 +1871,23 @@
 			productReference = 03D3262D1F14EED000B174C5 /* 手写约束.app */;
 			productType = "com.apple.product-type.application";
 		};
+		03E87ADE1F29D5EF009F1A6F /* 布局转场 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E87AF31F29D5EF009F1A6F /* Build configuration list for PBXNativeTarget "布局转场" */;
+			buildPhases = (
+				03E87ADB1F29D5EF009F1A6F /* Sources */,
+				03E87ADC1F29D5EF009F1A6F /* Frameworks */,
+				03E87ADD1F29D5EF009F1A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "布局转场";
+			productName = "布局转场";
+			productReference = 03E87ADF1F29D5EF009F1A6F /* 布局转场.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1819,6 +1895,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LF;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = liufeng;
 				TargetAttributes = {
@@ -1932,6 +2009,11 @@
 						DevelopmentTeam = QDT8L8LPPU;
 						ProvisioningStyle = Automatic;
 					};
+					03E87ADE1F29D5EF009F1A6F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QDT8L8LPPU;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 03C885851F126CD900E2FE42 /* Build configuration list for PBXProject "LFStudy" */;
@@ -1969,6 +2051,7 @@
 				03076BC31F1D93080020EDED /* CoreText */,
 				03C8191B1F1E2B3300172958 /* 网络请求 */,
 				03134F731F1F3489007AD43B /* transition */,
+				03E87ADE1F29D5EF009F1A6F /* 布局转场 */,
 			);
 		};
 /* End PBXProject section */
@@ -2192,6 +2275,16 @@
 				03D3263F1F14EED000B174C5 /* LaunchScreen.storyboard in Resources */,
 				03D3263C1F14EED000B174C5 /* Assets.xcassets in Resources */,
 				03D3263A1F14EED000B174C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E87ADD1F29D5EF009F1A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E87AF11F29D5EF009F1A6F /* LaunchScreen.storyboard in Resources */,
+				03E87AEE1F29D5EF009F1A6F /* Assets.xcassets in Resources */,
+				03E87AEC1F29D5EF009F1A6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3113,6 +3206,7 @@
 			files = (
 				03134F931F1F51F9007AD43B /* LFRedViewController.m in Sources */,
 				03134F7E1F1F3489007AD43B /* ViewController.m in Sources */,
+				0331CF011F283894001D66FC /* LFSlipeAnimationController.m in Sources */,
 				03134F8D1F1F397D007AD43B /* LFTansitionNavigationController.m in Sources */,
 				03134F901F1F399C007AD43B /* LFTranstionTabBarController.m in Sources */,
 				03134F7B1F1F3489007AD43B /* AppDelegate.m in Sources */,
@@ -3250,6 +3344,7 @@
 			files = (
 				03C9478F1F1A58EA00A26470 /* ViewController.m in Sources */,
 				03C9478C1F1A58EA00A26470 /* AppDelegate.m in Sources */,
+				03D9815E1F29941200688F63 /* LFMoveButton.m in Sources */,
 				03C947891F1A58EA00A26470 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3304,6 +3399,16 @@
 				03D326371F14EED000B174C5 /* ViewController.m in Sources */,
 				03D326341F14EED000B174C5 /* AppDelegate.m in Sources */,
 				03D326311F14EED000B174C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E87ADB1F29D5EF009F1A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E87AE91F29D5EF009F1A6F /* ViewController.m in Sources */,
+				03E87AE61F29D5EF009F1A6F /* AppDelegate.m in Sources */,
+				03E87AE31F29D5EF009F1A6F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3658,6 +3763,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				03D3263E1F14EED000B174C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		03E87AEA1F29D5EF009F1A6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E87AEB1F29D5EF009F1A6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03E87AEF1F29D5EF009F1A6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E87AF01F29D5EF009F1A6F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -4333,6 +4454,30 @@
 			};
 			name = Release;
 		};
+		03E87AF41F29D5EF009F1A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				INFOPLIST_FILE = "布局转场/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaituo.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03E87AF51F29D5EF009F1A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				INFOPLIST_FILE = "布局转场/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaituo.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4542,6 +4687,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		03E87AF31F29D5EF009F1A6F /* Build configuration list for PBXNativeTarget "布局转场" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E87AF41F29D5EF009F1A6F /* Debug */,
+				03E87AF51F29D5EF009F1A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

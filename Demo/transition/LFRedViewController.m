@@ -17,13 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor yellowColor];
+    self.view.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 20, 100, 50)];
+    [btn setTitle:@"返回" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+- (void)click
+{
     NSLog(@"%@", [self targetForAction:@selector(touchesBegan:withEvent:) withSender:nil]);
     NSLog(@"%@", [self targetViewControllerForAction:@selector(touchesBegan:withEvent:) sender:nil]);
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
 }
 
 @end

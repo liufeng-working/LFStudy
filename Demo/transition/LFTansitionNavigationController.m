@@ -7,31 +7,39 @@
 //
 
 #import "LFTansitionNavigationController.h"
+#import "LFSlipeAnimationController.h"
 
 @interface LFTansitionNavigationController ()<UINavigationControllerDelegate>
+
+@property(nonatomic,assign) BOOL interactive;
+
+@property(nonatomic,strong) UIPercentDrivenInteractiveTransition *interactionController;
 
 @end
 
 @implementation LFTansitionNavigationController
 
+- (UIPercentDrivenInteractiveTransition *)interactionController
+{
+    if (!_interactionController) {
+        _interactionController = [UIPercentDrivenInteractiveTransition new];
+    }
+    return _interactionController;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
  
+    self.delegate = self;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (nullable id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC  NS_AVAILABLE_IOS(7_0) {
+    return LFSlipeAnimationController.new;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (nullable id <UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController
+                                   interactionControllerForAnimationController:(id <UIViewControllerAnimatedTransitioning>) animationController NS_AVAILABLE_IOS(7_0){
+    return self.interactive ? self.interactionController : nil;
 }
-*/
 
 @end
