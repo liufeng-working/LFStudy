@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LFLayoutViewController.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 20, 100, 50)];
+    btn.backgroundColor = [UIColor redColor];
+    [btn setTitle:@"返回" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)click
+{
+    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+    layout.itemSize = CGSizeMake(50, 50);
+    LFLayoutViewController *vc = [[LFLayoutViewController alloc] initWithCollectionViewLayout:layout];
+    vc.title = @"年度";
+    vc.useLayoutToLayoutNavigationTransitions = false;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:nav animated:YES completion:nil];
 }
-
 
 @end

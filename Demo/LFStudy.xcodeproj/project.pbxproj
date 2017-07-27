@@ -170,6 +170,7 @@
 		03E87AEC1F29D5EF009F1A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E87AEA1F29D5EF009F1A6F /* Main.storyboard */; };
 		03E87AEE1F29D5EF009F1A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E87AED1F29D5EF009F1A6F /* Assets.xcassets */; };
 		03E87AF11F29D5EF009F1A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E87AEF1F29D5EF009F1A6F /* LaunchScreen.storyboard */; };
+		03E87AF81F29D70C009F1A6F /* LFLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E87AF71F29D70C009F1A6F /* LFLayoutViewController.m */; };
 		118B1A5B8DE7B9D1453B922F /* libPods-非主流架构.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A617F8772F20822141EE04 /* libPods-非主流架构.a */; };
 		1C2B758074797236D3B1DE1C /* libPods-NSOperation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2A116B2BEAE4BC0C4BA3A9 /* libPods-NSOperation.a */; };
 		61876340B8475037C08E61CB /* libPods-strong字符串.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5472D71532135A24A38965B /* libPods-strong字符串.a */; };
@@ -470,6 +471,8 @@
 		03E87AED1F29D5EF009F1A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E87AF01F29D5EF009F1A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03E87AF21F29D5EF009F1A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E87AF61F29D70C009F1A6F /* LFLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLayoutViewController.h; sourceTree = "<group>"; };
+		03E87AF71F29D70C009F1A6F /* LFLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLayoutViewController.m; sourceTree = "<group>"; };
 		0456E02D1A34410356C138AC /* Pods-控件的拖拽.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-控件的拖拽.release.xcconfig"; path = "Pods/Target Support Files/Pods-控件的拖拽/Pods-控件的拖拽.release.xcconfig"; sourceTree = "<group>"; };
 		0477E84D38411B298E93DABD /* libPods-多线程.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-多线程.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		067871876EE8AC07C9A64AEE /* Pods-导航控制器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-导航控制器.release.xcconfig"; path = "Pods/Target Support Files/Pods-导航控制器/Pods-导航控制器.release.xcconfig"; sourceTree = "<group>"; };
@@ -1355,6 +1358,8 @@
 				03E87AE51F29D5EF009F1A6F /* AppDelegate.m */,
 				03E87AE71F29D5EF009F1A6F /* ViewController.h */,
 				03E87AE81F29D5EF009F1A6F /* ViewController.m */,
+				03E87AF61F29D70C009F1A6F /* LFLayoutViewController.h */,
+				03E87AF71F29D70C009F1A6F /* LFLayoutViewController.m */,
 				03E87AEA1F29D5EF009F1A6F /* Main.storyboard */,
 				03E87AED1F29D5EF009F1A6F /* Assets.xcassets */,
 				03E87AEF1F29D5EF009F1A6F /* LaunchScreen.storyboard */,
@@ -3408,6 +3413,7 @@
 			files = (
 				03E87AE91F29D5EF009F1A6F /* ViewController.m in Sources */,
 				03E87AE61F29D5EF009F1A6F /* AppDelegate.m in Sources */,
+				03E87AF81F29D70C009F1A6F /* LFLayoutViewController.m in Sources */,
 				03E87AE31F29D5EF009F1A6F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
