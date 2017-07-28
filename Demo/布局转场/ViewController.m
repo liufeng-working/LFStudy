@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "LFLayoutViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<CAMediaTiming>
 
 @end
 
@@ -17,12 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 20, 100, 50)];
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 120, 100, 50)];
     btn.backgroundColor = [UIColor redColor];
     [btn setTitle:@"返回" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 120, 100, 50)];
+    view.backgroundColor = [UIColor redColor];
+    self.view.maskView = view;
 }
 
 - (void)click
@@ -34,6 +37,8 @@
     vc.useLayoutToLayoutNavigationTransitions = false;
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:nav animated:YES completion:nil];
+    
+    NSLog(@"%@", nav.interactivePopGestureRecognizer);
 }
 
 @end
