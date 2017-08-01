@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "LFLayoutViewController.h"
 
-@interface ViewController ()<CAMediaTiming>
+@interface ViewController ()
 
 @end
 
@@ -23,9 +23,12 @@
     [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 120, 100, 50)];
-    view.backgroundColor = [UIColor redColor];
-    self.view.maskView = view;
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    [path moveToPoint:self.view.center];
+    [path addCurveToPoint:CGPointMake(23, 10) controlPoint1:CGPointMake(150, 150) controlPoint2:CGPointMake(200, 200)];
+    CAShapeLayer *shapeL = [CAShapeLayer layer];
+    shapeL.path = path.CGPath;
+    [self.view.layer addSublayer:shapeL];
 }
 
 - (void)click
