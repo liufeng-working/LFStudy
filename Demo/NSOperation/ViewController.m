@@ -33,6 +33,8 @@
     NSOperationQueue *queue = [[NSOperationQueue alloc] init];
     [queue addOperation:invocation];
 }
+- (IBAction)loginClick:(UIButton *)sender {
+}
 
 - (void)invocation
 {

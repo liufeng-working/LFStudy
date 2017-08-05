@@ -136,6 +136,15 @@
 		03BE30501F1670EB0054CAD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BE304F1F1670EB0054CAD8 /* Assets.xcassets */; };
 		03BE30531F1670EB0054CAD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BE30511F1670EB0054CAD8 /* LaunchScreen.storyboard */; };
 		03BE30591F1684170054CAD8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BE30581F1684170054CAD8 /* ViewController.xib */; };
+		03C075F01F35CF5100A0E608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C075EF1F35CF5100A0E608 /* main.m */; };
+		03C075F31F35CF5100A0E608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C075F21F35CF5100A0E608 /* AppDelegate.m */; };
+		03C075F61F35CF5100A0E608 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C075F51F35CF5100A0E608 /* ViewController.m */; };
+		03C075F91F35CF5100A0E608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C075F71F35CF5100A0E608 /* Main.storyboard */; };
+		03C075FB1F35CF5100A0E608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C075FA1F35CF5100A0E608 /* Assets.xcassets */; };
+		03C075FE1F35CF5100A0E608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C075FC1F35CF5100A0E608 /* LaunchScreen.storyboard */; };
+		03C076081F35FB7400A0E608 /* LFNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C076051F35FB7400A0E608 /* LFNotification.m */; };
+		03C076091F35FB7400A0E608 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C076071F35FB7400A0E608 /* MBProgressHUD.m */; };
+		03C0760C1F35FC9500A0E608 /* LFLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0760B1F35FC9500A0E608 /* LFLoginViewModel.m */; };
 		03C819201F1E2B3300172958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C8191F1F1E2B3300172958 /* main.m */; };
 		03C819231F1E2B3300172958 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C819221F1E2B3300172958 /* AppDelegate.m */; };
 		03C819261F1E2B3300172958 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C819251F1E2B3300172958 /* ViewController.m */; };
@@ -230,6 +239,7 @@
 		03F569211F2B04FE00F231BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F5691F1F2B04FE00F231BA /* LaunchScreen.storyboard */; };
 		03F7EA671F317BB100B7A8B6 /* LFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EA661F317BB100B7A8B6 /* LFTableViewController.m */; };
 		D1AF044A6ED520BCABB224FE /* libPods-ReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBD2FBC07A48F62805BBCCA /* libPods-ReactiveCocoa.a */; };
+		D8D00C073B4C847059DC3979 /* libPods-MVVM+ReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B1169230F7E0A3452A781F /* libPods-MVVM+ReactiveCocoa.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -461,6 +471,22 @@
 		03BE30521F1670EB0054CAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03BE30541F1670EB0054CAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03BE30581F1684170054CAD8 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		03C075EC1F35CF5100A0E608 /* MVVM+ReactiveCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM+ReactiveCocoa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C075EF1F35CF5100A0E608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03C075F11F35CF5100A0E608 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03C075F21F35CF5100A0E608 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03C075F41F35CF5100A0E608 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03C075F51F35CF5100A0E608 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03C075F81F35CF5100A0E608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C075FA1F35CF5100A0E608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C075FD1F35CF5100A0E608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C075FF1F35CF5100A0E608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C076041F35FB7400A0E608 /* LFNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNotification.h; sourceTree = "<group>"; };
+		03C076051F35FB7400A0E608 /* LFNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNotification.m; sourceTree = "<group>"; };
+		03C076061F35FB7400A0E608 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		03C076071F35FB7400A0E608 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		03C0760A1F35FC9500A0E608 /* LFLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLoginViewModel.h; sourceTree = "<group>"; };
+		03C0760B1F35FC9500A0E608 /* LFLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLoginViewModel.m; sourceTree = "<group>"; };
 		03C8191C1F1E2B3300172958 /* 网络请求.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网络请求.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C8191F1F1E2B3300172958 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03C819211F1E2B3300172958 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -621,11 +647,13 @@
 		03F7EA661F317BB100B7A8B6 /* LFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTableViewController.m; sourceTree = "<group>"; };
 		0477E84D38411B298E93DABD /* libPods-多线程.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-多线程.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EA95D5DD51907EA8AC5CC8 /* libPods-事件传递.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-事件传递.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B1169230F7E0A3452A781F /* libPods-MVVM+ReactiveCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM+ReactiveCocoa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FABC5B60954A3BD0D707AB5 /* libPods-本地存储.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-本地存储.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A617F8772F20822141EE04 /* libPods-非主流架构.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-非主流架构.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBD2FBC07A48F62805BBCCA /* libPods-ReactiveCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D04687E526AC3429CF7438 /* libPods-GCD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4785B64C583BCDAABF44D682 /* Pods-ReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa.release.xcconfig"; sourceTree = "<group>"; };
+		4CE296C0EBCCECE33663D741 /* Pods-MVVM+ReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+ReactiveCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+ReactiveCocoa/Pods-MVVM+ReactiveCocoa.release.xcconfig"; sourceTree = "<group>"; };
 		5DF0A2BF3933697CAE81B832 /* libPods-LFStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BC07A9DD50FD337B050C3F /* libPods-导航控制器.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-导航控制器.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2A116B2BEAE4BC0C4BA3A9 /* libPods-NSOperation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSOperation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -638,6 +666,7 @@
 		AC4ED30FD3DDE55FDD55FE79 /* libPods-window学习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-window学习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BFCDE29C8771C1E3CD76AE /* libPods-手写约束.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-手写约束.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D215613A3B6D57FEF2315326 /* libPods-Copy概念.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Copy概念.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93E25C6C7574BCBEC783EAE /* Pods-MVVM+ReactiveCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+ReactiveCocoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+ReactiveCocoa/Pods-MVVM+ReactiveCocoa.debug.xcconfig"; sourceTree = "<group>"; };
 		DD025760BA5657D585919A05 /* libPods-帧动画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-帧动画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5472D71532135A24A38965B /* libPods-strong字符串.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-strong字符串.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -738,6 +767,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C075E91F35CF5100A0E608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D00C073B4C847059DC3979 /* libPods-MVVM+ReactiveCocoa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1268,6 +1305,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		03C075ED1F35CF5100A0E608 /* MVVM+ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				03C075F11F35CF5100A0E608 /* AppDelegate.h */,
+				03C075F21F35CF5100A0E608 /* AppDelegate.m */,
+				03C075F41F35CF5100A0E608 /* ViewController.h */,
+				03C075F51F35CF5100A0E608 /* ViewController.m */,
+				03C0760A1F35FC9500A0E608 /* LFLoginViewModel.h */,
+				03C0760B1F35FC9500A0E608 /* LFLoginViewModel.m */,
+				03C075F71F35CF5100A0E608 /* Main.storyboard */,
+				03C075FA1F35CF5100A0E608 /* Assets.xcassets */,
+				03C075FC1F35CF5100A0E608 /* LaunchScreen.storyboard */,
+				03C075FF1F35CF5100A0E608 /* Info.plist */,
+				03C076031F35FB7400A0E608 /* LFNotification */,
+				03C075EE1F35CF5100A0E608 /* Supporting Files */,
+			);
+			path = "MVVM+ReactiveCocoa";
+			sourceTree = "<group>";
+		};
+		03C075EE1F35CF5100A0E608 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C075EF1F35CF5100A0E608 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03C076031F35FB7400A0E608 /* LFNotification */ = {
+			isa = PBXGroup;
+			children = (
+				03C076041F35FB7400A0E608 /* LFNotification.h */,
+				03C076051F35FB7400A0E608 /* LFNotification.m */,
+				03C076061F35FB7400A0E608 /* MBProgressHUD.h */,
+				03C076071F35FB7400A0E608 /* MBProgressHUD.m */,
+			);
+			path = LFNotification;
+			sourceTree = "<group>";
+		};
 		03C8191D1F1E2B3300172958 /* 网络请求 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1323,6 +1398,7 @@
 				0329CC4D1F31C028008C8A94 /* 自定义布局（UICollectionViewLayout） */,
 				03F50B651F32C39100F26781 /* 瀑布流 */,
 				03D7B5AF1F334B2B0061E6AB /* ReactiveCocoa */,
+				03C075ED1F35CF5100A0E608 /* MVVM+ReactiveCocoa */,
 				03C8858B1F126CD900E2FE42 /* Products */,
 				9DC2D35031706CC0668265A0 /* Pods */,
 				E91A2DA88B00EA7E328DE42F /* Frameworks */,
@@ -1360,6 +1436,7 @@
 				0329CC4C1F31C028008C8A94 /* 自定义布局（UICollectionViewLayout）.app */,
 				03F50B641F32C39100F26781 /* 瀑布流.app */,
 				03D7B5AE1F334B2B0061E6AB /* ReactiveCocoa.app */,
+				03C075EC1F35CF5100A0E608 /* MVVM+ReactiveCocoa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1706,6 +1783,8 @@
 			children = (
 				945C68546DD406899E7025EF /* Pods-ReactiveCocoa.debug.xcconfig */,
 				4785B64C583BCDAABF44D682 /* Pods-ReactiveCocoa.release.xcconfig */,
+				D93E25C6C7574BCBEC783EAE /* Pods-MVVM+ReactiveCocoa.debug.xcconfig */,
+				4CE296C0EBCCECE33663D741 /* Pods-MVVM+ReactiveCocoa.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1732,6 +1811,7 @@
 				94CAA69BAA57845F44A7575A /* libPods-运行时（runtime）.a */,
 				31A617F8772F20822141EE04 /* libPods-非主流架构.a */,
 				3EBD2FBC07A48F62805BBCCA /* libPods-ReactiveCocoa.a */,
+				22B1169230F7E0A3452A781F /* libPods-MVVM+ReactiveCocoa.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1975,6 +2055,26 @@
 			name = "window学习";
 			productName = "window学习";
 			productReference = 03BE30411F1670EB0054CAD8 /* window学习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C075EB1F35CF5100A0E608 /* MVVM+ReactiveCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C076021F35CF5100A0E608 /* Build configuration list for PBXNativeTarget "MVVM+ReactiveCocoa" */;
+			buildPhases = (
+				E9597B27D0152FC25268271D /* [CP] Check Pods Manifest.lock */,
+				03C075E81F35CF5100A0E608 /* Sources */,
+				03C075E91F35CF5100A0E608 /* Frameworks */,
+				03C075EA1F35CF5100A0E608 /* Resources */,
+				64B4AF76472B39760E09B852 /* [CP] Embed Pods Frameworks */,
+				E245FD48DDDBC9A378A66B8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM+ReactiveCocoa";
+			productName = "MVVM+ReactiveCocoa";
+			productReference = 03C075EC1F35CF5100A0E608 /* MVVM+ReactiveCocoa.app */;
 			productType = "com.apple.product-type.application";
 		};
 		03C8191B1F1E2B3300172958 /* 网络请求 */ = {
@@ -2299,6 +2399,11 @@
 						DevelopmentTeam = QDT8L8LPPU;
 						ProvisioningStyle = Automatic;
 					};
+					03C075EB1F35CF5100A0E608 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QDT8L8LPPU;
+						ProvisioningStyle = Automatic;
+					};
 					03C8191B1F1E2B3300172958 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = QDT8L8LPPU;
@@ -2412,6 +2517,7 @@
 				0329CC4B1F31C028008C8A94 /* 自定义布局（UICollectionViewLayout） */,
 				03F50B631F32C39100F26781 /* 瀑布流 */,
 				03D7B5AD1F334B2B0061E6AB /* ReactiveCocoa */,
+				03C075EB1F35CF5100A0E608 /* MVVM+ReactiveCocoa */,
 			);
 		};
 /* End PBXProject section */
@@ -2555,6 +2661,16 @@
 				03BE30501F1670EB0054CAD8 /* Assets.xcassets in Resources */,
 				03BE30591F1684170054CAD8 /* ViewController.xib in Resources */,
 				03BE304E1F1670EB0054CAD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C075EA1F35CF5100A0E608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C075FE1F35CF5100A0E608 /* LaunchScreen.storyboard in Resources */,
+				03C075FB1F35CF5100A0E608 /* Assets.xcassets in Resources */,
+				03C075F91F35CF5100A0E608 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2736,6 +2852,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		64B4AF76472B39760E09B852 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+ReactiveCocoa/Pods-MVVM+ReactiveCocoa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6769B8FFBDF67DAF3FA86805 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2749,6 +2880,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E245FD48DDDBC9A378A66B8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+ReactiveCocoa/Pods-MVVM+ReactiveCocoa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9597B27D0152FC25268271D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM+ReactiveCocoa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2912,6 +3076,19 @@
 				03BE304B1F1670EB0054CAD8 /* ViewController.m in Sources */,
 				03BE30481F1670EB0054CAD8 /* AppDelegate.m in Sources */,
 				03BE30451F1670EB0054CAD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C075E81F35CF5100A0E608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C076081F35FB7400A0E608 /* LFNotification.m in Sources */,
+				03C075F61F35CF5100A0E608 /* ViewController.m in Sources */,
+				03C076091F35FB7400A0E608 /* MBProgressHUD.m in Sources */,
+				03C075F31F35CF5100A0E608 /* AppDelegate.m in Sources */,
+				03C0760C1F35FC9500A0E608 /* LFLoginViewModel.m in Sources */,
+				03C075F01F35CF5100A0E608 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3308,6 +3485,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				03BE30521F1670EB0054CAD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		03C075F71F35CF5100A0E608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C075F81F35CF5100A0E608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03C075FC1F35CF5100A0E608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C075FD1F35CF5100A0E608 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3885,6 +4078,32 @@
 			};
 			name = Release;
 		};
+		03C076001F35CF5100A0E608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93E25C6C7574BCBEC783EAE /* Pods-MVVM+ReactiveCocoa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				INFOPLIST_FILE = "MVVM+ReactiveCocoa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaituo.MVVM-ReactiveCocoa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03C076011F35CF5100A0E608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE296C0EBCCECE33663D741 /* Pods-MVVM+ReactiveCocoa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				INFOPLIST_FILE = "MVVM+ReactiveCocoa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaituo.MVVM-ReactiveCocoa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		03C819311F1E2B3300172958 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4442,6 +4661,15 @@
 			buildConfigurations = (
 				03BE30551F1670EB0054CAD8 /* Debug */,
 				03BE30561F1670EB0054CAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C076021F35CF5100A0E608 /* Build configuration list for PBXNativeTarget "MVVM+ReactiveCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C076001F35CF5100A0E608 /* Debug */,
+				03C076011F35CF5100A0E608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
