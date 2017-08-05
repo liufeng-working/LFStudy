@@ -8,6 +8,16 @@
 
 #import "ViewController.h"
 
+#define metamacro_stringify(VALUE) \
+metamacro_stringify_(VALUE)
+#define metamacro_stringify_(VALUE) @#VALUE
+
+#define NUMBER   10
+#define ADD(a,b) (a+b)
+
+#define STRINGIFY(S) #S
+#define CALCULATE(A,B)   _CALCULATE(A,B)   // 转换宏
+#define _CALCULATE(A,B)  A##10##B
 @interface ViewController ()
 
 @end
@@ -16,18 +26,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%d+%d=%d",NUMBER, NUMBER, ADD(NUMBER,NUMBER));
+    NSLog(@"int max: %s",STRINGIFY(INT_MAX));
+    NSLog(@"%d", CALCULATE(NUMBER,NUMBER));
 }
-
-- (IBAction)changeFontSize:(UIBarButtonItem *)sender {
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-- (IBAction)save:(id)sender {
-}
-
 
 @end
