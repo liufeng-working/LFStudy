@@ -1,0 +1,18 @@
+
+/* Class = "UIBarButtonItem"; title = "微信"; ObjectID = "Csx-1M-ZVI"; */
+"Csx-1M-ZVI.title" = "微信";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Cy2-EM-jiV"; */
+"Cy2-EM-jiV.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "NR5-d8-tZk"; */
+"NR5-d8-tZk.title" = "Title";
+
+/* Class = "UIButton"; normalTitle = "下一页"; ObjectID = "Zv0-EW-7SS"; */
+"Zv0-EW-7SS.normalTitle" = "下一页";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "aWi-YY-dSF"; */
+"aWi-YY-dSF.title" = "Item 2";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "tDK-3S-vQu"; */
+"tDK-3S-vQu.title" = "Item";

@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "L1z-Vc-a1p"; */
+"L1z-Vc-a1p.normalTitle" = "登录";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "Oxe-w7-z5K"; */
+"Oxe-w7-z5K.placeholder" = "请输入密码";
+
+/* Class = "UITextField"; text = "pwd"; ObjectID = "Oxe-w7-z5K"; */
+"Oxe-w7-z5K.text" = "pwd";
+
+/* Class = "UITextField"; placeholder = "请输入用户名"; ObjectID = "SGA-jc-N4L"; */
+"SGA-jc-N4L.placeholder" = "请输入用户名";
+
+/* Class = "UITextField"; text = "user"; ObjectID = "SGA-jc-N4L"; */
+"SGA-jc-N4L.text" = "user";
