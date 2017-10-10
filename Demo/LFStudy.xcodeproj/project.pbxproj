@@ -104,6 +104,7 @@
 		0344334D1F417851002B25A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0344334B1F417851002B25A2 /* Main.storyboard */; };
 		0344334F1F417851002B25A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0344334E1F417851002B25A2 /* Assets.xcassets */; };
 		034433521F417851002B25A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034433501F417851002B25A2 /* LaunchScreen.storyboard */; };
+		0370E2641F8B221F00B9D5DD /* LFGeneric.m in Sources */ = {isa = PBXBuildFile; fileRef = 0370E2631F8B221F00B9D5DD /* LFGeneric.m */; };
 		03812D0A1F1EF6B500BC9FB4 /* LFSwipeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03812D091F1EF6B500BC9FB4 /* LFSwipeNavigationController.m */; };
 		038C10621F18FDD70049FE20 /* LFApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C10611F18FDD70049FE20 /* LFApplication.m */; };
 		038C10651F18FDF20049FE20 /* LFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C10641F18FDF20049FE20 /* LFAppDelegate.m */; };
@@ -524,6 +525,8 @@
 		0344334E1F417851002B25A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034433511F417851002B25A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034433531F417851002B25A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0370E2621F8B221F00B9D5DD /* LFGeneric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFGeneric.h; sourceTree = "<group>"; };
+		0370E2631F8B221F00B9D5DD /* LFGeneric.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFGeneric.m; sourceTree = "<group>"; };
 		03812D081F1EF6B500BC9FB4 /* LFSwipeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSwipeNavigationController.h; sourceTree = "<group>"; };
 		03812D091F1EF6B500BC9FB4 /* LFSwipeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSwipeNavigationController.m; sourceTree = "<group>"; };
 		038C10601F18FDD70049FE20 /* LFApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFApplication.h; sourceTree = "<group>"; };
@@ -2187,6 +2190,8 @@
 				03E89F631F5CE64B0069C776 /* AppDelegate.m */,
 				03E89F651F5CE64B0069C776 /* ViewController.h */,
 				03E89F661F5CE64B0069C776 /* ViewController.m */,
+				0370E2621F8B221F00B9D5DD /* LFGeneric.h */,
+				0370E2631F8B221F00B9D5DD /* LFGeneric.m */,
 				03E89F681F5CE64B0069C776 /* Main.storyboard */,
 				03E89F6B1F5CE64B0069C776 /* Assets.xcassets */,
 				03E89F6D1F5CE64B0069C776 /* LaunchScreen.storyboard */,
@@ -3108,6 +3113,7 @@
 					03E89F5C1F5CE64B0069C776 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = QDT8L8LPPU;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					03F50B631F32C39100F26781 = {
@@ -4026,6 +4032,7 @@
 				03E89F671F5CE64B0069C776 /* ViewController.m in Sources */,
 				03E89F641F5CE64B0069C776 /* AppDelegate.m in Sources */,
 				03E89F771F5CE6C50069C776 /* LFFormViewController.m in Sources */,
+				0370E2641F8B221F00B9D5DD /* LFGeneric.m in Sources */,
 				03E89F611F5CE64B0069C776 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5624,12 +5631,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QDT8L8LPPU;
 				INFOPLIST_FILE = "表单/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kaituo.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -5637,12 +5647,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QDT8L8LPPU;
 				INFOPLIST_FILE = "表单/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kaituo.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -6010,6 +6022,7 @@
 				03E89F721F5CE64B0069C776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03F50B781F32C39100F26781 /* Build configuration list for PBXNativeTarget "瀑布流" */ = {
 			isa = XCConfigurationList;
