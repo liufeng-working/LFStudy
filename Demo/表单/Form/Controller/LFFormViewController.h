@@ -7,7 +7,12 @@
 //  表单
 
 #import <UIKit/UIKit.h>
+#import "LFFormGroupModel.h"
 
 @interface LFFormViewController : UIViewController
+
+@property(nonatomic,strong) NSArray<LFFormGroupModel *> *groupMs;
+
+@property(nonatomic,weak,readonly) UITableView *tableView;
 
 @end
