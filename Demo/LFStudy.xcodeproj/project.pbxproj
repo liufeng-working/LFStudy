@@ -182,6 +182,8 @@
 		038C44811F14BE410023AB3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038C447F1F14BE410023AB3F /* Main.storyboard */; };
 		038C44831F14BE410023AB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038C44821F14BE410023AB3F /* Assets.xcassets */; };
 		038C44861F14BE410023AB3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038C44841F14BE410023AB3F /* LaunchScreen.storyboard */; };
+		039609351FA1AA280021CF10 /* LFFormResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 039609341FA1AA280021CF10 /* LFFormResource.bundle */; };
+		039609381FA1AAC50021CF10 /* LFFormTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 039609371FA1AAC50021CF10 /* LFFormTool.m */; };
 		03A87BDF1F1CDCB100F3B58D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A87BDE1F1CDCB100F3B58D /* main.m */; };
 		03A87BE21F1CDCB100F3B58D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A87BE11F1CDCB100F3B58D /* AppDelegate.m */; };
 		03A87BE51F1CDCB100F3B58D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A87BE41F1CDCB100F3B58D /* ViewController.m */; };
@@ -351,10 +353,16 @@
 		03E87AF81F29D70C009F1A6F /* LFLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E87AF71F29D70C009F1A6F /* LFLayoutViewController.m */; };
 		03E89F611F5CE64B0069C776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E89F601F5CE64B0069C776 /* main.m */; };
 		03E89F641F5CE64B0069C776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E89F631F5CE64B0069C776 /* AppDelegate.m */; };
-		03E89F671F5CE64B0069C776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E89F661F5CE64B0069C776 /* ViewController.m */; };
-		03E89F6A1F5CE64B0069C776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E89F681F5CE64B0069C776 /* Main.storyboard */; };
 		03E89F6C1F5CE64B0069C776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E89F6B1F5CE64B0069C776 /* Assets.xcassets */; };
 		03E89F6F1F5CE64B0069C776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E89F6D1F5CE64B0069C776 /* LaunchScreen.storyboard */; };
+		03E978D81FA2C4F200A16FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E978D71FA2C4F200A16FC1 /* Main.storyboard */; };
+		03E978D91FA2C68D00A16FC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E89F661F5CE64B0069C776 /* ViewController.m */; };
+		03E978DC1FA2C76A00A16FC1 /* LFTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E978DB1FA2C76A00A16FC1 /* LFTextFieldViewController.m */; };
+		03E978DF1FA2C88300A16FC1 /* LFSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E978DE1FA2C88300A16FC1 /* LFSwitchViewController.m */; };
+		03E978E21FA2C89200A16FC1 /* LFSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E978E11FA2C89200A16FC1 /* LFSelectViewController.m */; };
+		03E978E51FA2C8A200A16FC1 /* LFPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E978E41FA2C8A200A16FC1 /* LFPhotoViewController.m */; };
+		03E978EB1FA2C98800A16FC1 /* LFHybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E978EA1FA2C98800A16FC1 /* LFHybridViewController.m */; };
+		03E978EE1FA2CA4F00A16FC1 /* LFCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E978ED1FA2CA4F00A16FC1 /* LFCustomViewController.m */; };
 		03F50B441F32B5A700F26781 /* LFCollectionViewFlowTrandformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F50B431F32B5A700F26781 /* LFCollectionViewFlowTrandformLayout.m */; };
 		03F50B681F32C39100F26781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F50B671F32C39100F26781 /* main.m */; };
 		03F50B6B1F32C39100F26781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F50B6A1F32C39100F26781 /* AppDelegate.m */; };
@@ -757,6 +765,9 @@
 		038C44821F14BE410023AB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		038C44851F14BE410023AB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		038C44871F14BE410023AB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		039609341FA1AA280021CF10 /* LFFormResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LFFormResource.bundle; sourceTree = "<group>"; };
+		039609361FA1AAC50021CF10 /* LFFormTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFFormTool.h; sourceTree = "<group>"; };
+		039609371FA1AAC50021CF10 /* LFFormTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFFormTool.m; sourceTree = "<group>"; };
 		03A87BDB1F1CDCB100F3B58D /* Runloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A87BDE1F1CDCB100F3B58D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03A87BE01F1CDCB100F3B58D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1051,10 +1062,22 @@
 		03E89F631F5CE64B0069C776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03E89F651F5CE64B0069C776 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		03E89F661F5CE64B0069C776 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		03E89F691F5CE64B0069C776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03E89F6B1F5CE64B0069C776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E89F6E1F5CE64B0069C776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03E89F701F5CE64B0069C776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E978D71FA2C4F200A16FC1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		03E978DA1FA2C76A00A16FC1 /* LFTextFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFTextFieldViewController.h; sourceTree = "<group>"; };
+		03E978DB1FA2C76A00A16FC1 /* LFTextFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFTextFieldViewController.m; sourceTree = "<group>"; };
+		03E978DD1FA2C88300A16FC1 /* LFSwitchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFSwitchViewController.h; sourceTree = "<group>"; };
+		03E978DE1FA2C88300A16FC1 /* LFSwitchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFSwitchViewController.m; sourceTree = "<group>"; };
+		03E978E01FA2C89200A16FC1 /* LFSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFSelectViewController.h; sourceTree = "<group>"; };
+		03E978E11FA2C89200A16FC1 /* LFSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFSelectViewController.m; sourceTree = "<group>"; };
+		03E978E31FA2C8A200A16FC1 /* LFPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFPhotoViewController.h; sourceTree = "<group>"; };
+		03E978E41FA2C8A200A16FC1 /* LFPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFPhotoViewController.m; sourceTree = "<group>"; };
+		03E978E91FA2C98800A16FC1 /* LFHybridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFHybridViewController.h; sourceTree = "<group>"; };
+		03E978EA1FA2C98800A16FC1 /* LFHybridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFHybridViewController.m; sourceTree = "<group>"; };
+		03E978EC1FA2CA4F00A16FC1 /* LFCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFCustomViewController.h; sourceTree = "<group>"; };
+		03E978ED1FA2CA4F00A16FC1 /* LFCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFCustomViewController.m; sourceTree = "<group>"; };
 		03F50B421F32B5A700F26781 /* LFCollectionViewFlowTrandformLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCollectionViewFlowTrandformLayout.h; sourceTree = "<group>"; };
 		03F50B431F32B5A700F26781 /* LFCollectionViewFlowTrandformLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCollectionViewFlowTrandformLayout.m; sourceTree = "<group>"; };
 		03F50B641F32C39100F26781 /* 瀑布流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "瀑布流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1662,6 +1685,8 @@
 		032B556C1F9F0E5400132EC5 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				039609361FA1AAC50021CF10 /* LFFormTool.h */,
+				039609371FA1AAC50021CF10 /* LFFormTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -1682,14 +1707,14 @@
 				032B558E1F9F12AB00132EC5 /* LFFormHeaderFooterView.m */,
 				0330054A1FA07176009EA4AE /* LFFormTextFieldCell.h */,
 				0330054B1FA07176009EA4AE /* LFFormTextFieldCell.m */,
-				0318ECA71FA079C900A36E39 /* LFFormSelectCell.h */,
-				0318ECA81FA079C900A36E39 /* LFFormSelectCell.m */,
 				0330054D1FA07371009EA4AE /* LFFormSwitchCell.h */,
 				0330054E1FA07371009EA4AE /* LFFormSwitchCell.m */,
-				0318ECAD1FA08AC500A36E39 /* LFFormPhotoCell.h */,
-				0318ECAE1FA08AC500A36E39 /* LFFormPhotoCell.m */,
 				033005531FA07510009EA4AE /* LFFormCustomCell.h */,
 				033005541FA07510009EA4AE /* LFFormCustomCell.m */,
+				0318ECA71FA079C900A36E39 /* LFFormSelectCell.h */,
+				0318ECA81FA079C900A36E39 /* LFFormSelectCell.m */,
+				0318ECAD1FA08AC500A36E39 /* LFFormPhotoCell.h */,
+				0318ECAE1FA08AC500A36E39 /* LFFormPhotoCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1703,14 +1728,14 @@
 				0300D3461FA02AB800929719 /* LFFormHeaderFooterModel.m */,
 				033005561FA07774009EA4AE /* LFFormTextFiledModel.h */,
 				033005571FA07774009EA4AE /* LFFormTextFiledModel.m */,
-				0318ECA41FA0798700A36E39 /* LFFormSelectModel.h */,
-				0318ECA51FA0798700A36E39 /* LFFormSelectModel.m */,
 				0318EC9B1FA0783B00A36E39 /* LFFormSwitchModel.h */,
 				0318EC9C1FA0783B00A36E39 /* LFFormSwitchModel.m */,
-				0318ECB01FA08AFF00A36E39 /* LFFormPhotoModel.h */,
-				0318ECB11FA08AFF00A36E39 /* LFFormPhotoModel.m */,
 				0318ECA11FA078BB00A36E39 /* LFFormCustomModel.h */,
 				0318ECA21FA078BB00A36E39 /* LFFormCustomModel.m */,
+				0318ECA41FA0798700A36E39 /* LFFormSelectModel.h */,
+				0318ECA51FA0798700A36E39 /* LFFormSelectModel.m */,
+				0318ECB01FA08AFF00A36E39 /* LFFormPhotoModel.h */,
+				0318ECB11FA08AFF00A36E39 /* LFFormPhotoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1962,6 +1987,14 @@
 				038C44771F14BE410023AB3F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		039609331FA1AA090021CF10 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				039609341FA1AA280021CF10 /* LFFormResource.bundle */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		03A87BDC1F1CDCB100F3B58D /* Runloop */ = {
@@ -2677,13 +2710,25 @@
 		03E89F5E1F5CE64B0069C776 /* 表单 */ = {
 			isa = PBXGroup;
 			children = (
-				03E89F741F5CE6830069C776 /* Form */,
 				03E89F621F5CE64B0069C776 /* AppDelegate.h */,
 				03E89F631F5CE64B0069C776 /* AppDelegate.m */,
+				03E978D71FA2C4F200A16FC1 /* Main.storyboard */,
 				03E89F651F5CE64B0069C776 /* ViewController.h */,
 				03E89F661F5CE64B0069C776 /* ViewController.m */,
-				03E89F681F5CE64B0069C776 /* Main.storyboard */,
+				03E978DA1FA2C76A00A16FC1 /* LFTextFieldViewController.h */,
+				03E978DB1FA2C76A00A16FC1 /* LFTextFieldViewController.m */,
+				03E978DD1FA2C88300A16FC1 /* LFSwitchViewController.h */,
+				03E978DE1FA2C88300A16FC1 /* LFSwitchViewController.m */,
+				03E978E01FA2C89200A16FC1 /* LFSelectViewController.h */,
+				03E978E11FA2C89200A16FC1 /* LFSelectViewController.m */,
+				03E978E31FA2C8A200A16FC1 /* LFPhotoViewController.h */,
+				03E978E41FA2C8A200A16FC1 /* LFPhotoViewController.m */,
+				03E978EC1FA2CA4F00A16FC1 /* LFCustomViewController.h */,
+				03E978ED1FA2CA4F00A16FC1 /* LFCustomViewController.m */,
+				03E978E91FA2C98800A16FC1 /* LFHybridViewController.h */,
+				03E978EA1FA2C98800A16FC1 /* LFHybridViewController.m */,
 				03E89F6B1F5CE64B0069C776 /* Assets.xcassets */,
+				03E89F741F5CE6830069C776 /* Form */,
 				03E89F6D1F5CE64B0069C776 /* LaunchScreen.storyboard */,
 				03E89F701F5CE64B0069C776 /* Info.plist */,
 				03E89F5F1F5CE64B0069C776 /* Supporting Files */,
@@ -2706,6 +2751,7 @@
 				032B55731F9F0E5500132EC5 /* Model */,
 				032B55701F9F0E5500132EC5 /* View */,
 				032B556C1F9F0E5400132EC5 /* Tool */,
+				039609331FA1AA090021CF10 /* Resource */,
 			);
 			path = Form;
 			sourceTree = "<group>";
@@ -4167,7 +4213,8 @@
 			files = (
 				03E89F6F1F5CE64B0069C776 /* LaunchScreen.storyboard in Resources */,
 				03E89F6C1F5CE64B0069C776 /* Assets.xcassets in Resources */,
-				03E89F6A1F5CE64B0069C776 /* Main.storyboard in Resources */,
+				039609351FA1AA280021CF10 /* LFFormResource.bundle in Resources */,
+				03E978D81FA2C4F200A16FC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4749,8 +4796,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E978D91FA2C68D00A16FC1 /* ViewController.m in Sources */,
 				0300D3471FA02AB800929719 /* LFFormHeaderFooterModel.m in Sources */,
-				03E89F671F5CE64B0069C776 /* ViewController.m in Sources */,
 				03E89F641F5CE64B0069C776 /* AppDelegate.m in Sources */,
 				032B557C1F9F0E5500132EC5 /* LFFormViewController.m in Sources */,
 				0318ECAF1FA08AC500A36E39 /* LFFormPhotoCell.m in Sources */,
@@ -4759,13 +4806,20 @@
 				0330054F1FA07371009EA4AE /* LFFormSwitchCell.m in Sources */,
 				032B557F1F9F0E5500132EC5 /* LFFormGroupModel.m in Sources */,
 				0318ECA31FA078BB00A36E39 /* LFFormCustomModel.m in Sources */,
+				03E978DC1FA2C76A00A16FC1 /* LFTextFieldViewController.m in Sources */,
+				03E978E21FA2C89200A16FC1 /* LFSelectViewController.m in Sources */,
 				032B55901F9F12AB00132EC5 /* LFFormHeaderFooterView.m in Sources */,
 				033005551FA07510009EA4AE /* LFFormCustomCell.m in Sources */,
 				0318ECA91FA079C900A36E39 /* LFFormSelectCell.m in Sources */,
+				03E978E51FA2C8A200A16FC1 /* LFPhotoViewController.m in Sources */,
+				03E978DF1FA2C88300A16FC1 /* LFSwitchViewController.m in Sources */,
 				033005581FA07774009EA4AE /* LFFormTextFiledModel.m in Sources */,
 				0318ECA61FA0798700A36E39 /* LFFormSelectModel.m in Sources */,
+				039609381FA1AAC50021CF10 /* LFFormTool.m in Sources */,
 				03E89F611F5CE64B0069C776 /* main.m in Sources */,
+				03E978EB1FA2C98800A16FC1 /* LFHybridViewController.m in Sources */,
 				0318EC9D1FA0783B00A36E39 /* LFFormSwitchModel.m in Sources */,
+				03E978EE1FA2CA4F00A16FC1 /* LFCustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5464,14 +5518,6 @@
 				031883821F4463FB008E908B /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		03E89F681F5CE64B0069C776 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03E89F691F5CE64B0069C776 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		03E89F6D1F5CE64B0069C776 /* LaunchScreen.storyboard */ = {

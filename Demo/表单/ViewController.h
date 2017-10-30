@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "LFFormViewController.h"
 
-@interface ViewController : LFFormViewController
+@interface ViewController : UIViewController
 
 @end
 

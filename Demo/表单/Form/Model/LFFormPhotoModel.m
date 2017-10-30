@@ -10,4 +10,17 @@
 
 @implementation LFFormPhotoModel
 
+- (NSUInteger)maxCount
+{
+    return _maxCount > 0 ? _maxCount : 3;
+}
+
+- (NSMutableArray<UIImage *> *)images
+{
+    if (!_images) {
+        _images = [NSMutableArray array];
+    }
+    return _images;
+}
+
 @end

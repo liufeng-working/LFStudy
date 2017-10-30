@@ -27,9 +27,9 @@
     id cell = [tableView dequeueReusableCellWithIdentifier:lfSelectCell_id];
     if (cell == nil) {
         cell = [[self alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:lfSelectCell_id];
-        //        NSLog(@"%@-新建的", lfRowCell_id);
+//        NSLog(@"%@-新建的", lfRowCell_id);
     }else {
-        //        NSLog(@"%@-重用的", lfRowCell_id);
+//        NSLog(@"%@-重用的", lfRowCell_id);
     }
     return cell;
 }
@@ -96,25 +96,23 @@
     self.leftL.translatesAutoresizingMaskIntoConstraints = NO;
     self.textField.translatesAutoresizingMaskIntoConstraints = NO;
     [self.leftL setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
+    NSDictionary *metrics = @{@"lAndR": @15, @"tAndB": @10, @"spacing": @10};
     NSDictionary *views = @{@"leftL": self.leftL, @"tf": self.textField};
-    NSArray *hCon = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-15-[leftL]-10-[tf]-0-|" options:0 metrics:nil views:views];
+    NSArray *hCon = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-lAndR-[leftL]-spacing-[tf]-0-|" options:NSLayoutFormatAlignAllCenterY metrics:metrics views:views];
     [self.contentView addConstraints:hCon];
     
-    NSArray *lvCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-10-[leftL]-10-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:views];
+    NSArray *lvCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-tAndB-[leftL]-tAndB-|" options:0 metrics:metrics views:views];
     [self.contentView addConstraints:lvCon];
-    
-    NSArray *tfvCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-5-[tf]-5-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:views];
-    [self.contentView addConstraints:tfvCon];
 }
 
 #pragma mark -
 #pragma mark - 选中
 - (void)tapClick
 {
-    if (self.sM.selectCallback) {
-        self.sM.selectCallback(self.textField.text, ^(NSString *text) {
-            self.textField.text = text;
-            self.sM.rightText = text;
+    if (self.sM.click) {
+        self.sM.click(self.textField.text, ^(NSString *showText) {
+            self.textField.text = showText;
+            self.sM.rightText = showText;
         });
     }
 }

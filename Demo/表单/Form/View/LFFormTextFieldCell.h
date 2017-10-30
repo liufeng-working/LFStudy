@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class LFFormTextFiledModel;
+@protocol LFFormTextFieldCellDelegate;
 /// left:UILabel right:UITextField
 @interface LFFormTextFieldCell : UITableViewCell
 
@@ -18,5 +19,14 @@
 + (instancetype)textFieldCellWithTableView:(UITableView *)tableView;
 
 @property(nonatomic,strong) LFFormTextFiledModel *tfM;
+
+@property(nonatomic,weak) id<LFFormTextFieldCellDelegate> delegate;
+
+@end
+
+@protocol LFFormTextFieldCellDelegate <NSObject>
+
+@optional
+- (void)textFieldCellDidClickReturn:(LFFormTextFieldCell *)cell;
 
 @end

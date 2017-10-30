@@ -10,4 +10,24 @@
 
 @implementation LFFormHeaderFooterModel
 
+- (NSString *)text
+{
+    return _text ?: @"";
+}
+
+- (UIFont *)font
+{
+    return _font ?: [UIFont systemFontOfSize:15];
+}
+
+- (UIColor *)textColor
+{
+    return _textColor ?: [UIColor orangeColor];;
+}
+
+- (UIColor *)backgroundColor
+{
+    return _backgroundColor ?: [UIColor clearColor];
+}
+
 @end

@@ -10,4 +10,9 @@
 
 @implementation LFFormTextFiledModel
 
+- (UIReturnKeyType)returnKeyType
+{
+    return _returnKeyType ?: UIReturnKeyNext;
+}
+
 @end

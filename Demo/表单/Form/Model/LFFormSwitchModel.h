@@ -24,6 +24,6 @@
 /**
  点击switch的回调
  */
-@property(nonatomic,copy) void(^clickCallback)(BOOL isOn);
+@property(nonatomic,copy) void(^click)(BOOL isOn);
 
 @end

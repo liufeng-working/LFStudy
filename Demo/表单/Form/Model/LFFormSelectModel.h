@@ -29,6 +29,6 @@
 /**
  选中后的回调(rightShow是回调右侧将要显示的内容)
  */
-@property(nonatomic,copy) void(^selectCallback)(NSString *rightText, void(^rightShow)(NSString *showText));
+@property(nonatomic,copy) void(^click)(NSString *rightText, void(^rightShow)(NSString *showText));
 
 @end

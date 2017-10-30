@@ -108,6 +108,7 @@
     LFEmployee *emp = [self.frc objectAtIndexPath:indexPath];
     cell.textLabel.text = emp.name;
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%d-%.3f", emp.age, emp.height];
+    
     return cell;
 }
 

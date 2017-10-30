@@ -25,9 +25,9 @@
     id cell = [tableView dequeueReusableCellWithIdentifier:lfCustomCell_id];
     if (cell == nil) {
         cell = [[self alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:lfCustomCell_id];
-        //        NSLog(@"%@-新建的", lfRowCell_id);
+//        NSLog(@"%@-新建的", lfRowCell_id);
     }else {
-        //        NSLog(@"%@-重用的", lfRowCell_id);
+//        NSLog(@"%@-重用的", lfRowCell_id);
     }
     return cell;
 }
@@ -58,6 +58,17 @@
     _cM = cM;
     
     [self setNeedsUpdateConstraints];
+    
+    [self clearContent];
+    
+    [self.placeholderView addSubview:cM.customView];
+}
+
+- (void)clearContent
+{
+    [self.placeholderView.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj removeFromSuperview];
+    }];
 }
 
 - (void)setupSubviews
@@ -77,9 +88,9 @@
     [NSLayoutConstraint deactivateConstraints:self.vConstraints];
     
     // 添加竖直方向上约束
+    NSDictionary *metrics = @{@"height": @(self.cM.height), @"lAndR": @5};
     NSDictionary *views = @{@"pView": self.placeholderView};
-    NSDictionary *metrics = @{@"height": @(self.cM.height)};
-    NSArray *vCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-5-[pView(height@750)]-5-|" options:0 metrics:metrics views:views];
+    NSArray *vCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-lAndR-[pView(height@750)]-lAndR-|" options:0 metrics:metrics views:views];
     [self.contentView addConstraints:vCon];
     self.vConstraints = vCon;
     

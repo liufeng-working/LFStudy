@@ -25,9 +25,9 @@
     id cell = [tableView dequeueReusableCellWithIdentifier:lfSwitchCell_id];
     if (cell == nil) {
         cell = [[self alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:lfSwitchCell_id];
-        //        NSLog(@"%@-新建的", lfRowCell_id);
+//        NSLog(@"%@-新建的", lfRowCell_id);
     }else {
-        //        NSLog(@"%@-重用的", lfRowCell_id);
+//        NSLog(@"%@-重用的", lfRowCell_id);
     }
     return cell;
 }
@@ -78,15 +78,13 @@
     self.leftL.translatesAutoresizingMaskIntoConstraints = NO;
     self.switchV.translatesAutoresizingMaskIntoConstraints = NO;
     [self.switchV setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
+    NSDictionary *metrics = @{@"lAndR": @15, @"tAndB": @10, @"spacing": @10};
     NSDictionary *views = @{@"leftL": self.leftL, @"switchV": self.switchV};
-    NSArray *hCon = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-15-[leftL]-10-[switchV]-15-|" options:0 metrics:nil views:views];
+    NSArray *hCon = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-lAndR-[leftL]-spacing-[switchV]-lAndR-|" options:NSLayoutFormatAlignAllCenterY metrics:metrics views:views];
     [self.contentView addConstraints:hCon];
     
-    NSArray *lvCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-10-[leftL]-10-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:views];
+    NSArray *lvCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-tAndB-[leftL]-tAndB-|" options:0 metrics:metrics views:views];
     [self.contentView addConstraints:lvCon];
-    
-    NSArray *tfvCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-10-[switchV]-10-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:views];
-    [self.contentView addConstraints:tfvCon];
 }
 
 #pragma mark -
@@ -95,8 +93,8 @@
 {
     BOOL isOn = self.switchV.isOn;
     self.sM.isOn = isOn;
-    if (self.sM.clickCallback) {
-        self.sM.clickCallback(isOn);
+    if (self.sM.click) {
+        self.sM.click(isOn);
     }
 }
 

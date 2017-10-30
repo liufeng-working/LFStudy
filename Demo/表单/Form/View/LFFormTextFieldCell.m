@@ -25,9 +25,9 @@
     id cell = [tableView dequeueReusableCellWithIdentifier:lfTextFieldCell_id];
     if (cell == nil) {
         cell = [[self alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:lfTextFieldCell_id];
-        //        NSLog(@"%@-新建的", lfRowCell_id);
+//        NSLog(@"%@-新建的", lfRowCell_id);
     }else {
-        //        NSLog(@"%@-重用的", lfRowCell_id);
+//        NSLog(@"%@-重用的", lfRowCell_id);
     }
     return cell;
 }
@@ -78,6 +78,12 @@
     self.leftL.text = tfM.leftTitle;
     self.textField.placeholder = tfM.placeholder;
     self.textField.text = tfM.rightText;
+    self.textField.returnKeyType = tfM.returnKeyType;
+    self.textField.keyboardType = tfM.keyboardType;
+}
+
+- (BOOL)becomeFirstResponder {
+    return [self.textField becomeFirstResponder];
 }
 
 - (void)setupSubviews
@@ -85,15 +91,13 @@
     self.leftL.translatesAutoresizingMaskIntoConstraints = NO;
     self.textField.translatesAutoresizingMaskIntoConstraints = NO;
     [self.leftL setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
+    NSDictionary *metrics = @{@"lAndR": @15, @"tAndB": @10, @"spacing": @10};
     NSDictionary *views = @{@"leftL": self.leftL, @"tf": self.textField};
-    NSArray *hCon = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-15-[leftL]-10-[tf]-15-|" options:0 metrics:nil views:views];
+    NSArray *hCon = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-lAndR-[leftL]-spacing-[tf]-lAndR-|" options:NSLayoutFormatAlignAllCenterY metrics:metrics views:views];
     [self.contentView addConstraints:hCon];
     
-    NSArray *lvCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-10-[leftL]-10-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:views];
+    NSArray *lvCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-tAndB-[leftL]-tAndB-|" options:0 metrics:metrics views:views];
     [self.contentView addConstraints:lvCon];
-    
-    NSArray *tfvCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-5-[tf]-5-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:views];
-    [self.contentView addConstraints:tfvCon];
 }
 
 #pragma mark -
@@ -106,6 +110,14 @@
         self.tfM.rightText = [textField.text stringByAppendingString:string];
     }
 
+    return YES;
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    if (((self.tfM.returnClick && self.tfM.returnClick()) || !self.tfM.returnClick) && [self.delegate respondsToSelector:@selector(textFieldCellDidClickReturn:)] && self.tfM.returnKeyType == UIReturnKeyNext) {
+        [self.delegate textFieldCellDidClickReturn:self];
+    }
+    
     return YES;
 }
 

@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "LFFormGroupModel.h"
 
-@interface LFFormViewController : UIViewController
+@interface LFFormViewController : UITableViewController
 
 @property(nonatomic,strong) NSArray<LFFormGroupModel *> *groupMs;
-
-@property(nonatomic,weak,readonly) UITableView *tableView;
 
 @end

@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @class LFFormPhotoModel;
-/// 添加图片
+@protocol LFFormPhotoCellDelegate;
+/// 添加图片，需要在info.plise中添加两个key(NSCameraUsageDescription、 NSPhotoLibraryUsageDescription)
 @interface LFFormPhotoCell : UITableViewCell
 
 /**
@@ -18,5 +19,33 @@
 + (instancetype)photoCellWithTableView:(UITableView *)tableView;
 
 @property(nonatomic,strong) LFFormPhotoModel *pM;
+
+@property(nonatomic,weak) id<LFFormPhotoCellDelegate> delegate;
+
+/**
+ 添加一张图
+ */
+- (void)addImage:(UIImage *)image;
+
+@end
+
+@protocol LFFormPhotoCellDelegate <NSObject>
+
+@optional
+
+/**
+ 添加图片
+ */
+- (void)photoCellAddPhoto:(LFFormPhotoCell *)cell;
+
+/**
+ 删除某一个
+ */
+- (void)photoCell:(LFFormPhotoCell *)cell didDeleteImage:(UIImage *)image;
+
+/**
+ 选中某一个
+ */
+- (void)photoCell:(LFFormPhotoCell *)cell didSelectAtIndex:(NSUInteger)index;
 
 @end

@@ -22,7 +22,9 @@
     LFFormHeaderFooterView *headerFooterView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:lfFormHeaderFooterView_id];
     if (headerFooterView == nil) {
         headerFooterView = [[LFFormHeaderFooterView alloc] initWithReuseIdentifier:lfFormHeaderFooterView_id];
-        headerFooterView.backgroundView = [UIView new];
+        UIView *bgView = [UIView new];
+        bgView.backgroundColor = [UIColor grayColor];
+        headerFooterView.backgroundView = bgView;
     }
     return headerFooterView;
 }
@@ -34,11 +36,12 @@
         [self.contentView addSubview:titleL];
         
         titleL.translatesAutoresizingMaskIntoConstraints = NO;
+        NSDictionary *metrics = @{@"lAndR": @15, @"tAndB": @0};
         NSDictionary *views = @{@"titleL": titleL};
-        NSArray *hCon = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-15-[titleL]-15-|" options:NSLayoutFormatAlignAllLeft | NSLayoutAttributeRight metrics:nil views:views];
+        NSArray *hCon = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-lAndR-[titleL]-lAndR-|" options:0 metrics:metrics views:views];
         [self.contentView addConstraints:hCon];
         
-        NSArray *vCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[titleL]-0-|" options:NSLayoutFormatAlignAllTop | NSLayoutAttributeBottom metrics:nil views:views];
+        NSArray *vCon = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-tAndB-[titleL]-tAndB-|" options:NSLayoutFormatAlignAllTop | NSLayoutAttributeBottom metrics:metrics views:views];
         [self.contentView addConstraints:vCon];
         
         _titleL = titleL;
@@ -50,12 +53,11 @@
 {
     _headerFooterM = headerFooterM;
     
-    self.titleL.text = headerFooterM.text ?: @"";
+    self.titleL.text = headerFooterM.text;
     self.textLabel.textAlignment = headerFooterM.textAlignment;
-    self.titleL.font = headerFooterM.font ?: [UIFont systemFontOfSize:15];
-    self.titleL.textColor = headerFooterM.textColor ?: [UIColor orangeColor];
-    self.titleL.backgroundColor = headerFooterM.backgroundColor ?: [UIColor clearColor];
-    
+    self.titleL.font = headerFooterM.font;
+    self.titleL.textColor = headerFooterM.textColor;
+    self.backgroundView.backgroundColor = headerFooterM.backgroundColor;
 }
 
 @end

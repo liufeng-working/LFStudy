@@ -12,15 +12,22 @@
 #import "LFFormSwitchModel.h"
 #import "LFFormCustomModel.h"
 #import "LFFormSelectModel.h"
+#import "LFFormPhotoModel.h"
 
 @interface LFFormGroupModel : NSObject
 
+/**
+ 区头
+ */
 @property(nonatomic,strong) LFFormHeaderFooterModel *headerM;
 
+/**
+ 区尾
+ */
 @property(nonatomic,strong) LFFormHeaderFooterModel *footerM;
 
 /**
- 每个cell显示的内容，可选(LFFormTextFiledModel、LFFormSwitchModel、LFFormLabelModel、LFFormCustomModel、LFFormSelectModel、)
+ 每个cell显示的内容，可选(LFFormTextFiledModel、LFFormSwitchModel、LFFormCustomModel、LFFormSelectModel、LFFormPhotoModel、)
  */
 @property(nonatomic,strong) NSArray<NSObject *> *rowMs;
 
