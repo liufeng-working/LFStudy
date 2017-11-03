@@ -27,7 +27,7 @@
 @property(nonatomic,copy) NSString *placeholder;
 
 /**
- return key 类型
+ return key 类型(默认UIReturnTypeNext)
  */
 @property(nonatomic,assign) UIReturnKeyType returnKeyType;
 
