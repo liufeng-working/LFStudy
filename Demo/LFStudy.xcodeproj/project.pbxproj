@@ -147,12 +147,30 @@
 		033F15DD1F1C9CF4000F51C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033F15DB1F1C9CF4000F51C5 /* Main.storyboard */; };
 		033F15DF1F1C9CF4000F51C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033F15DE1F1C9CF4000F51C5 /* Assets.xcassets */; };
 		033F15E21F1C9CF4000F51C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033F15E01F1C9CF4000F51C5 /* LaunchScreen.storyboard */; };
+		034265051FBE760E008E5B08 /* LFImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 034264E01FBE760E008E5B08 /* LFImagePickerController.bundle */; };
+		034265061FBE760E008E5B08 /* LFThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264E31FBE760E008E5B08 /* LFThumbnailViewController.m */; };
+		034265071FBE760E008E5B08 /* LFImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264E71FBE760E008E5B08 /* LFImagePickerController.m */; };
+		034265081FBE760E008E5B08 /* LFAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264E81FBE760E008E5B08 /* LFAlbumViewController.m */; };
+		034265091FBE760E008E5B08 /* LFPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264E91FBE760E008E5B08 /* LFPreviewViewController.m */; };
+		0342650A1FBE760E008E5B08 /* LFAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264ED1FBE760E008E5B08 /* LFAssetModel.m */; };
+		0342650B1FBE760E008E5B08 /* LFPublicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264EE1FBE760E008E5B08 /* LFPublicModel.m */; };
+		0342650C1FBE760E008E5B08 /* LFAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264EF1FBE760E008E5B08 /* LFAlbumModel.m */; };
+		0342650D1FBE760E008E5B08 /* LFThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264F21FBE760E008E5B08 /* LFThumbnailCell.m */; };
+		0342650E1FBE760E008E5B08 /* LFAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264F31FBE760E008E5B08 /* LFAlbumCell.m */; };
+		0342650F1FBE760E008E5B08 /* LFToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264F51FBE760E008E5B08 /* LFToolBarView.m */; };
+		034265101FBE760E008E5B08 /* LFPickerPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264FC1FBE760E008E5B08 /* LFPickerPhotoCell.m */; };
+		034265111FBE760E008E5B08 /* LFPickerPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264FD1FBE760E008E5B08 /* LFPickerPhotoView.m */; };
+		034265121FBE760E008E5B08 /* LFPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264FE1FBE760E008E5B08 /* LFPreviewCell.m */; };
+		034265131FBE760E008E5B08 /* LFPickerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034264FF1FBE760E008E5B08 /* LFPickerImageView.m */; };
+		034265141FBE760E008E5B08 /* LFImagePickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 034265011FBE760E008E5B08 /* LFImagePickerTool.m */; };
+		034265151FBE760E008E5B08 /* LFImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 034265021FBE760E008E5B08 /* LFImageManager.m */; };
 		034433441F417851002B25A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 034433431F417851002B25A2 /* main.m */; };
 		034433471F417851002B25A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 034433461F417851002B25A2 /* AppDelegate.m */; };
 		0344334A1F417851002B25A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034433491F417851002B25A2 /* ViewController.m */; };
 		0344334D1F417851002B25A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0344334B1F417851002B25A2 /* Main.storyboard */; };
 		0344334F1F417851002B25A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0344334E1F417851002B25A2 /* Assets.xcassets */; };
 		034433521F417851002B25A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034433501F417851002B25A2 /* LaunchScreen.storyboard */; };
+		035A69401FBEB8A400EB3AD6 /* LFCameraPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A693F1FBEB8A400EB3AD6 /* LFCameraPreviewCell.m */; };
 		0369FED91F99C5E600EAFF2D /* LFEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0369FED81F99C5E600EAFF2D /* LFEmployeeViewController.m */; };
 		0369FEE81F99FD6800EAFF2D /* Company.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0369FEE71F99FD6800EAFF2D /* Company.xcmappingmodel */; };
 		0369FF2B1F9A1D2200EAFF2D /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0369FEEE1F9A1D2100EAFF2D /* MagicalImportFunctions.m */; };
@@ -278,6 +296,13 @@
 		03C6C0391F3D9C850051FF6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C6C0381F3D9C850051FF6A /* Assets.xcassets */; };
 		03C6C03C1F3D9C850051FF6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C6C03A1F3D9C850051FF6A /* LaunchScreen.storyboard */; };
 		03C6C0431F3D9CC70051FF6A /* LFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C6C0421F3D9CC70051FF6A /* LFImageView.m */; };
+		03C72A961FBADD44005F0C6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C72A951FBADD44005F0C6C /* AppDelegate.m */; };
+		03C72A991FBADD44005F0C6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C72A981FBADD44005F0C6C /* ViewController.m */; };
+		03C72A9C1FBADD44005F0C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C72A9A1FBADD44005F0C6C /* Main.storyboard */; };
+		03C72A9F1FBADD44005F0C6C /* ImagePicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03C72A9D1FBADD44005F0C6C /* ImagePicker.xcdatamodeld */; };
+		03C72AA11FBADD44005F0C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C72AA01FBADD44005F0C6C /* Assets.xcassets */; };
+		03C72AA41FBADD44005F0C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C72AA21FBADD44005F0C6C /* LaunchScreen.storyboard */; };
+		03C72AA71FBADD44005F0C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C72AA61FBADD44005F0C6C /* main.m */; };
 		03C819201F1E2B3300172958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C8191F1F1E2B3300172958 /* main.m */; };
 		03C819231F1E2B3300172958 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C819221F1E2B3300172958 /* AppDelegate.m */; };
 		03C819261F1E2B3300172958 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C819251F1E2B3300172958 /* ViewController.m */; };
@@ -329,6 +354,7 @@
 		03CB35241F17C0CC00E224A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CB35231F17C0CC00E224A8 /* Assets.xcassets */; };
 		03CB35271F17C0CC00E224A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CB35251F17C0CC00E224A8 /* LaunchScreen.storyboard */; };
 		03CB352E1F17C1C800E224A8 /* LFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CB352D1F17C1C800E224A8 /* LFTableViewController.m */; };
+		03CC5F871FBC221900960598 /* monitor.html in Resources */ = {isa = PBXBuildFile; fileRef = 03CC5F861FBC221900960598 /* monitor.html */; };
 		03CC66D11F305CD200D42214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC66D01F305CD200D42214 /* main.m */; };
 		03CC66D41F305CD200D42214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC66D31F305CD200D42214 /* AppDelegate.m */; };
 		03CC66D71F305CD200D42214 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC66D61F305CD200D42214 /* ViewController.m */; };
@@ -718,6 +744,39 @@
 		033F15DE1F1C9CF4000F51C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		033F15E11F1C9CF4000F51C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		033F15E31F1C9CF4000F51C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034264E01FBE760E008E5B08 /* LFImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LFImagePickerController.bundle; sourceTree = "<group>"; };
+		034264E21FBE760E008E5B08 /* LFImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFImagePickerController.h; sourceTree = "<group>"; };
+		034264E31FBE760E008E5B08 /* LFThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFThumbnailViewController.m; sourceTree = "<group>"; };
+		034264E41FBE760E008E5B08 /* LFPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPreviewViewController.h; sourceTree = "<group>"; };
+		034264E51FBE760E008E5B08 /* LFAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAlbumViewController.h; sourceTree = "<group>"; };
+		034264E61FBE760E008E5B08 /* LFThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFThumbnailViewController.h; sourceTree = "<group>"; };
+		034264E71FBE760E008E5B08 /* LFImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFImagePickerController.m; sourceTree = "<group>"; };
+		034264E81FBE760E008E5B08 /* LFAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAlbumViewController.m; sourceTree = "<group>"; };
+		034264E91FBE760E008E5B08 /* LFPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPreviewViewController.m; sourceTree = "<group>"; };
+		034264EB1FBE760E008E5B08 /* LFAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAlbumModel.h; sourceTree = "<group>"; };
+		034264EC1FBE760E008E5B08 /* LFPublicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPublicModel.h; sourceTree = "<group>"; };
+		034264ED1FBE760E008E5B08 /* LFAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAssetModel.m; sourceTree = "<group>"; };
+		034264EE1FBE760E008E5B08 /* LFPublicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPublicModel.m; sourceTree = "<group>"; };
+		034264EF1FBE760E008E5B08 /* LFAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAlbumModel.m; sourceTree = "<group>"; };
+		034264F01FBE760E008E5B08 /* LFAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAssetModel.h; sourceTree = "<group>"; };
+		034264F21FBE760E008E5B08 /* LFThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFThumbnailCell.m; sourceTree = "<group>"; };
+		034264F31FBE760E008E5B08 /* LFAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAlbumCell.m; sourceTree = "<group>"; };
+		034264F41FBE760E008E5B08 /* LFPickerPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPickerPhotoCell.h; sourceTree = "<group>"; };
+		034264F51FBE760E008E5B08 /* LFToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFToolBarView.m; sourceTree = "<group>"; };
+		034264F61FBE760E008E5B08 /* LFPickerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPickerImageView.h; sourceTree = "<group>"; };
+		034264F71FBE760E008E5B08 /* LFPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPreviewCell.h; sourceTree = "<group>"; };
+		034264F81FBE760E008E5B08 /* LFPickerPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPickerPhotoView.h; sourceTree = "<group>"; };
+		034264F91FBE760E008E5B08 /* LFAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAlbumCell.h; sourceTree = "<group>"; };
+		034264FA1FBE760E008E5B08 /* LFThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFThumbnailCell.h; sourceTree = "<group>"; };
+		034264FB1FBE760E008E5B08 /* LFToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFToolBarView.h; sourceTree = "<group>"; };
+		034264FC1FBE760E008E5B08 /* LFPickerPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPickerPhotoCell.m; sourceTree = "<group>"; };
+		034264FD1FBE760E008E5B08 /* LFPickerPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPickerPhotoView.m; sourceTree = "<group>"; };
+		034264FE1FBE760E008E5B08 /* LFPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPreviewCell.m; sourceTree = "<group>"; };
+		034264FF1FBE760E008E5B08 /* LFPickerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPickerImageView.m; sourceTree = "<group>"; };
+		034265011FBE760E008E5B08 /* LFImagePickerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFImagePickerTool.m; sourceTree = "<group>"; };
+		034265021FBE760E008E5B08 /* LFImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFImageManager.m; sourceTree = "<group>"; };
+		034265031FBE760E008E5B08 /* LFImagePickerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFImagePickerTool.h; sourceTree = "<group>"; };
+		034265041FBE760E008E5B08 /* LFImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFImageManager.h; sourceTree = "<group>"; };
 		034433401F417851002B25A2 /* Unicode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unicode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034433431F417851002B25A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		034433451F417851002B25A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -728,6 +787,8 @@
 		0344334E1F417851002B25A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034433511F417851002B25A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034433531F417851002B25A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035A693E1FBEB8A400EB3AD6 /* LFCameraPreviewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFCameraPreviewCell.h; sourceTree = "<group>"; };
+		035A693F1FBEB8A400EB3AD6 /* LFCameraPreviewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFCameraPreviewCell.m; sourceTree = "<group>"; };
 		0369FED71F99C5E600EAFF2D /* LFEmployeeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFEmployeeViewController.h; sourceTree = "<group>"; };
 		0369FED81F99C5E600EAFF2D /* LFEmployeeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFEmployeeViewController.m; sourceTree = "<group>"; };
 		0369FEDA1F99F3B600EAFF2D /* Company_1.0.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Company_1.0.0.xcdatamodel; sourceTree = "<group>"; };
@@ -957,6 +1018,17 @@
 		03C6C03D1F3D9C850051FF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03C6C0411F3D9CC70051FF6A /* LFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFImageView.h; sourceTree = "<group>"; };
 		03C6C0421F3D9CC70051FF6A /* LFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFImageView.m; sourceTree = "<group>"; };
+		03C72A921FBADD44005F0C6C /* ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C72A941FBADD44005F0C6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03C72A951FBADD44005F0C6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03C72A971FBADD44005F0C6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03C72A981FBADD44005F0C6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03C72A9B1FBADD44005F0C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C72A9E1FBADD44005F0C6C /* ImagePicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImagePicker.xcdatamodel; sourceTree = "<group>"; };
+		03C72AA01FBADD44005F0C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C72AA31FBADD44005F0C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C72AA51FBADD44005F0C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C72AA61FBADD44005F0C6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03C8191C1F1E2B3300172958 /* 网络请求.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网络请求.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C8191F1F1E2B3300172958 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03C819211F1E2B3300172958 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1043,6 +1115,7 @@
 		03CB35281F17C0CC00E224A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03CB352C1F17C1C800E224A8 /* LFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTableViewController.h; sourceTree = "<group>"; };
 		03CB352D1F17C1C800E224A8 /* LFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTableViewController.m; sourceTree = "<group>"; };
+		03CC5F861FBC221900960598 /* monitor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = monitor.html; sourceTree = "<group>"; };
 		03CC66CD1F305CD200D42214 /* BezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CC66D01F305CD200D42214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03CC66D21F305CD200D42214 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1372,6 +1445,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		03C6C0271F3D9C850051FF6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C72A8F1FBADD44005F0C6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1991,6 +2071,89 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		034264DE1FBE760E008E5B08 /* LFImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				034264DF1FBE760E008E5B08 /* Resouse */,
+				034264E11FBE760E008E5B08 /* Controller */,
+				034264EA1FBE760E008E5B08 /* Model */,
+				034264F11FBE760E008E5B08 /* View */,
+				034265001FBE760E008E5B08 /* Tool */,
+			);
+			name = LFImagePickerController;
+			path = ../../../../Documents/LFTools/LFCustomTool/Public/View/LFImagePickerController;
+			sourceTree = "<group>";
+		};
+		034264DF1FBE760E008E5B08 /* Resouse */ = {
+			isa = PBXGroup;
+			children = (
+				034264E01FBE760E008E5B08 /* LFImagePickerController.bundle */,
+			);
+			path = Resouse;
+			sourceTree = "<group>";
+		};
+		034264E11FBE760E008E5B08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				034264E21FBE760E008E5B08 /* LFImagePickerController.h */,
+				034264E71FBE760E008E5B08 /* LFImagePickerController.m */,
+				034264E51FBE760E008E5B08 /* LFAlbumViewController.h */,
+				034264E81FBE760E008E5B08 /* LFAlbumViewController.m */,
+				034264E61FBE760E008E5B08 /* LFThumbnailViewController.h */,
+				034264E31FBE760E008E5B08 /* LFThumbnailViewController.m */,
+				034264E41FBE760E008E5B08 /* LFPreviewViewController.h */,
+				034264E91FBE760E008E5B08 /* LFPreviewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		034264EA1FBE760E008E5B08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				034264EB1FBE760E008E5B08 /* LFAlbumModel.h */,
+				034264EF1FBE760E008E5B08 /* LFAlbumModel.m */,
+				034264F01FBE760E008E5B08 /* LFAssetModel.h */,
+				034264ED1FBE760E008E5B08 /* LFAssetModel.m */,
+				034264EC1FBE760E008E5B08 /* LFPublicModel.h */,
+				034264EE1FBE760E008E5B08 /* LFPublicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		034264F11FBE760E008E5B08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				034264F21FBE760E008E5B08 /* LFThumbnailCell.m */,
+				034264F31FBE760E008E5B08 /* LFAlbumCell.m */,
+				034264F41FBE760E008E5B08 /* LFPickerPhotoCell.h */,
+				034264F51FBE760E008E5B08 /* LFToolBarView.m */,
+				034264F61FBE760E008E5B08 /* LFPickerImageView.h */,
+				034264F71FBE760E008E5B08 /* LFPreviewCell.h */,
+				034264F81FBE760E008E5B08 /* LFPickerPhotoView.h */,
+				034264F91FBE760E008E5B08 /* LFAlbumCell.h */,
+				034264FA1FBE760E008E5B08 /* LFThumbnailCell.h */,
+				034264FB1FBE760E008E5B08 /* LFToolBarView.h */,
+				034264FC1FBE760E008E5B08 /* LFPickerPhotoCell.m */,
+				034264FD1FBE760E008E5B08 /* LFPickerPhotoView.m */,
+				034264FE1FBE760E008E5B08 /* LFPreviewCell.m */,
+				034264FF1FBE760E008E5B08 /* LFPickerImageView.m */,
+				035A693E1FBEB8A400EB3AD6 /* LFCameraPreviewCell.h */,
+				035A693F1FBEB8A400EB3AD6 /* LFCameraPreviewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		034265001FBE760E008E5B08 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				034265041FBE760E008E5B08 /* LFImageManager.h */,
+				034265021FBE760E008E5B08 /* LFImageManager.m */,
+				034265031FBE760E008E5B08 /* LFImagePickerTool.h */,
+				034265011FBE760E008E5B08 /* LFImagePickerTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		034433411F417851002B25A2 /* Unicode */ = {
 			isa = PBXGroup;
 			children = (
@@ -2423,6 +2586,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		03C72A931FBADD44005F0C6C /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				03CC5F861FBC221900960598 /* monitor.html */,
+				03C72A941FBADD44005F0C6C /* AppDelegate.h */,
+				03C72A951FBADD44005F0C6C /* AppDelegate.m */,
+				03C72A971FBADD44005F0C6C /* ViewController.h */,
+				03C72A981FBADD44005F0C6C /* ViewController.m */,
+				03C72A9A1FBADD44005F0C6C /* Main.storyboard */,
+				03C72AA01FBADD44005F0C6C /* Assets.xcassets */,
+				03C72AA21FBADD44005F0C6C /* LaunchScreen.storyboard */,
+				03C72AA51FBADD44005F0C6C /* Info.plist */,
+				03C72AA61FBADD44005F0C6C /* main.m */,
+				03C72A9D1FBADD44005F0C6C /* ImagePicker.xcdatamodeld */,
+				034264DE1FBE760E008E5B08 /* LFImagePickerController */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
 		03C8191D1F1E2B3300172958 /* 网络请求 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2451,6 +2633,7 @@
 			isa = PBXGroup;
 			children = (
 				03C8858C1F126CD900E2FE42 /* LFStudy */,
+				03C72A931FBADD44005F0C6C /* ImagePicker */,
 				030A44381FB538A7002213BC /* TextView */,
 				03E89F5E1F5CE64B0069C776 /* 表单 */,
 				032F88D21F9880B700E455AF /* CoreData1 */,
@@ -2541,6 +2724,7 @@
 				03FAA8D11F979B7F007482E6 /* CoreData.app */,
 				032F88D11F9880B700E455AF /* CoreData1.app */,
 				030A44371FB538A7002213BC /* TextView.app */,
+				03C72A921FBADD44005F0C6C /* ImagePicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3469,6 +3653,23 @@
 			productReference = 03C6C02A1F3D9C850051FF6A /* xib动态刷新.app */;
 			productType = "com.apple.product-type.application";
 		};
+		03C72A911FBADD44005F0C6C /* ImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C72AAA1FBADD44005F0C6C /* Build configuration list for PBXNativeTarget "ImagePicker" */;
+			buildPhases = (
+				03C72A8E1FBADD44005F0C6C /* Sources */,
+				03C72A8F1FBADD44005F0C6C /* Frameworks */,
+				03C72A901FBADD44005F0C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImagePicker;
+			productName = ImagePicker;
+			productReference = 03C72A921FBADD44005F0C6C /* ImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
 		03C8191B1F1E2B3300172958 /* 网络请求 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03C819301F1E2B3300172958 /* Build configuration list for PBXNativeTarget "网络请求" */;
@@ -3893,6 +4094,11 @@
 						DevelopmentTeam = QDT8L8LPPU;
 						ProvisioningStyle = Automatic;
 					};
+					03C72A911FBADD44005F0C6C = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = JZ8BCQ3SD3;
+						ProvisioningStyle = Automatic;
+					};
 					03C8191B1F1E2B3300172958 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = QDT8L8LPPU;
@@ -3995,6 +4201,7 @@
 			projectRoot = "";
 			targets = (
 				03C885891F126CD900E2FE42 /* LFStudy */,
+				03C72A911FBADD44005F0C6C /* ImagePicker */,
 				030A44361FB538A7002213BC /* TextView */,
 				03E89F5C1F5CE64B0069C776 /* 表单 */,
 				032F88D01F9880B700E455AF /* CoreData1 */,
@@ -4281,6 +4488,18 @@
 				03C6C03C1F3D9C850051FF6A /* LaunchScreen.storyboard in Resources */,
 				03C6C0391F3D9C850051FF6A /* Assets.xcassets in Resources */,
 				03C6C0371F3D9C850051FF6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C72A901FBADD44005F0C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C72AA41FBADD44005F0C6C /* LaunchScreen.storyboard in Resources */,
+				03C72AA11FBADD44005F0C6C /* Assets.xcassets in Resources */,
+				03CC5F871FBC221900960598 /* monitor.html in Resources */,
+				03C72A9C1FBADD44005F0C6C /* Main.storyboard in Resources */,
+				034265051FBE760E008E5B08 /* LFImagePickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4874,6 +5093,34 @@
 				03C6C0341F3D9C850051FF6A /* ViewController.m in Sources */,
 				03C6C0311F3D9C850051FF6A /* AppDelegate.m in Sources */,
 				03C6C02E1F3D9C850051FF6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C72A8E1FBADD44005F0C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0342650F1FBE760E008E5B08 /* LFToolBarView.m in Sources */,
+				0342650A1FBE760E008E5B08 /* LFAssetModel.m in Sources */,
+				03C72A991FBADD44005F0C6C /* ViewController.m in Sources */,
+				034265121FBE760E008E5B08 /* LFPreviewCell.m in Sources */,
+				034265131FBE760E008E5B08 /* LFPickerImageView.m in Sources */,
+				034265111FBE760E008E5B08 /* LFPickerPhotoView.m in Sources */,
+				0342650B1FBE760E008E5B08 /* LFPublicModel.m in Sources */,
+				034265081FBE760E008E5B08 /* LFAlbumViewController.m in Sources */,
+				0342650C1FBE760E008E5B08 /* LFAlbumModel.m in Sources */,
+				03C72A961FBADD44005F0C6C /* AppDelegate.m in Sources */,
+				035A69401FBEB8A400EB3AD6 /* LFCameraPreviewCell.m in Sources */,
+				034265061FBE760E008E5B08 /* LFThumbnailViewController.m in Sources */,
+				03C72AA71FBADD44005F0C6C /* main.m in Sources */,
+				0342650E1FBE760E008E5B08 /* LFAlbumCell.m in Sources */,
+				03C72A9F1FBADD44005F0C6C /* ImagePicker.xcdatamodeld in Sources */,
+				034265071FBE760E008E5B08 /* LFImagePickerController.m in Sources */,
+				034265151FBE760E008E5B08 /* LFImageManager.m in Sources */,
+				034265101FBE760E008E5B08 /* LFPickerPhotoCell.m in Sources */,
+				0342650D1FBE760E008E5B08 /* LFThumbnailCell.m in Sources */,
+				034265091FBE760E008E5B08 /* LFPreviewViewController.m in Sources */,
+				034265141FBE760E008E5B08 /* LFImagePickerTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5536,6 +5783,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				03C6C03B1F3D9C850051FF6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		03C72A9A1FBADD44005F0C6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C72A9B1FBADD44005F0C6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03C72AA21FBADD44005F0C6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C72AA31FBADD44005F0C6C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -6508,6 +6771,44 @@
 			};
 			name = Release;
 		};
+		03C72AA81FBADD44005F0C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZ8BCQ3SD3;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Foreverlove.c;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03C72AA91FBADD44005F0C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZ8BCQ3SD3;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Foreverlove.c;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		03C819311F1E2B3300172958 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7268,6 +7569,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		03C72AAA1FBADD44005F0C6C /* Build configuration list for PBXNativeTarget "ImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C72AA81FBADD44005F0C6C /* Debug */,
+				03C72AA91FBADD44005F0C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		03C819301F1E2B3300172958 /* Build configuration list for PBXNativeTarget "网络请求" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -7461,6 +7771,16 @@
 			);
 			currentVersion = 036E96861F98493000D10A69 /* Weibo.xcdatamodel */;
 			path = Weibo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		03C72A9D1FBADD44005F0C6C /* ImagePicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03C72A9E1FBADD44005F0C6C /* ImagePicker.xcdatamodel */,
+			);
+			currentVersion = 03C72A9E1FBADD44005F0C6C /* ImagePicker.xcdatamodel */;
+			path = ImagePicker.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
