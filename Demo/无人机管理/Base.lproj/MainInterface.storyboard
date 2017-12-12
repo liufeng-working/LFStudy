@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMP-Yn-9YQ">
+                                <rect key="frame" x="144.5" y="35" width="31" height="30"/>
+                                <state key="normal" title="添加"/>
+                                <connections>
+                                    <action selector="add:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="PSv-Z3-6Kj"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pFB-V6-3vC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="M4Y-Lb-cyx" id="NR8-i4-7t4"/>
+                                    <outlet property="delegate" destination="M4Y-Lb-cyx" id="Qcl-Vw-zGD"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="XMP-Yn-9YQ" firstAttribute="centerX" secondItem="ssy-KU-ocm" secondAttribute="centerX" id="Dsw-3L-3nd"/>
+                            <constraint firstItem="XMP-Yn-9YQ" firstAttribute="centerY" secondItem="ssy-KU-ocm" secondAttribute="centerY" id="Jmn-e6-Hfk"/>
+                            <constraint firstItem="pFB-V6-3vC" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="Vg0-Vm-yAs"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="pFB-V6-3vC" secondAttribute="trailing" id="XWZ-g0-Jec"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="bottom" secondItem="pFB-V6-3vC" secondAttribute="bottom" id="xYr-6B-Xtu"/>
+                            <constraint firstItem="pFB-V6-3vC" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" id="yPz-v5-t6v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="100"/>
+                    <connections>
+                        <outlet property="addBtn" destination="XMP-Yn-9YQ" id="KaE-TF-8cK"/>
+                        <outlet property="tableView" destination="pFB-V6-3vC" id="dfC-xj-5o1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.8" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>

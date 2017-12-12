@@ -26,4 +26,8 @@
 }
 
 
+- (IBAction)hide:(id)sender {
+}
+- (IBAction)show:(id)sender {
+}
 @end

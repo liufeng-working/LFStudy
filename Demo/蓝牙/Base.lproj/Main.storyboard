@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f6w-QA-ewo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="INz-e8-Jdy">
+            <objects>
+                <viewController id="Kkl-a2-D4q" customClass="ViewController2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bwG-Tk-Gqo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qnS-iv-quI"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="c77-lm-NeG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pn4-gC-kff" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-604" y="316"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="KKY-dR-Ege">
+            <objects>
+                <tabBarController id="f6w-QA-ewo" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="A3f-qZ-gbD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="tuT-e2-LXe"/>
+                        <segue destination="Kkl-a2-D4q" kind="relationship" relationship="viewControllers" id="rav-e2-7Bp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LtP-O1-IAN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1432" y="-48"/>
+        </scene>
+        <!--item1-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7QV-wI-o9L">
+                                <rect key="frame" x="15" y="70" width="345" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="J9w-1n-T1d"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxQ-sA-geZ">
+                                <rect key="frame" x="50" y="304" width="31" height="30"/>
+                                <state key="normal" title="搜索"/>
+                                <connections>
+                                    <action selector="search:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oTc-ab-r9B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWO-Ol-bZe">
+                                <rect key="frame" x="172" y="304" width="31" height="30"/>
+                                <state key="normal" title="选择"/>
+                                <connections>
+                                    <action selector="select:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbN-do-1ke"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUw-U7-yhf">
+                                <rect key="frame" x="301" y="304" width="31" height="30"/>
+                                <state key="normal" title="发送"/>
+                                <connections>
+                                    <action selector="send:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dYQ-KR-34H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cxQ-sA-geZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="3UK-Jh-Za8"/>
+                            <constraint firstItem="7QV-wI-o9L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="E5K-fF-Eii"/>
+                            <constraint firstItem="PUw-U7-yhf" firstAttribute="centerY" secondItem="JWO-Ol-bZe" secondAttribute="centerY" id="G8C-Kb-0TR"/>
+                            <constraint firstItem="JWO-Ol-bZe" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="LK0-It-nZ6"/>
+                            <constraint firstItem="JWO-Ol-bZe" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Oze-V7-67X"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PUw-U7-yhf" secondAttribute="trailing" constant="43" id="Tbv-89-Xvh"/>
+                            <constraint firstItem="7QV-wI-o9L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="afl-sG-q9C"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cxQ-sA-geZ" secondAttribute="trailing" constant="20" symbolic="YES" id="cNM-k7-F7Z"/>
+                            <constraint firstItem="PUw-U7-yhf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="g11-99-Svz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7QV-wI-o9L" secondAttribute="trailing" constant="15" id="qcT-29-8WT"/>
+                            <constraint firstItem="cxQ-sA-geZ" firstAttribute="centerY" secondItem="JWO-Ol-bZe" secondAttribute="centerY" id="ysd-CS-w9S"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="item1" id="snM-Nv-1CU"/>
+                    <connections>
+                        <outlet property="imageView" destination="7QV-wI-o9L" id="VCS-gZ-fuZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-604" y="-373"/>
+        </scene>
+    </scenes>
+</document>

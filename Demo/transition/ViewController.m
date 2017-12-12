@@ -54,9 +54,6 @@
     
 //    UIPresentationController
 //    UIViewPropertyAnimator
-    
-    UICollectionViewController *cccc;
-    cccc.useLayoutToLayoutNavigationTransitions
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
