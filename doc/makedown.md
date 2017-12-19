@@ -8,8 +8,10 @@
 #### LFMakedown
 ##### LFMakedown
 ###### LFMakedown
+
 LFMakedown
 =
+
 LFMakedown
 -
 
@@ -17,36 +19,55 @@ LFMakedown
 	+ LFMakedown
 		+ LFMakedown
 			+ LFMakedown
-				+ LFMakedown
+			
 - LFMakedown
+	- LFMakedown
+		- LFMakedown
+			- LFMakedown
+			
 * LFMakedown
+	* LFMakedown
+		* LFMakedown
+			* LFMakedown
+			
++ LFMakedown
+	- LFMakedown
+		* LFMakedown
 
 1. LFMakedown
 	1. LFMakedown
+		1. LFMakedown
 2. LFMakedown
 3. LFMakedown
+4. LFMakedown
 
 > 1. LFMakedown
 > 2. LFMakedown
+> 3. LFMakedown
 > 
 >> LFMakedown
+>> 
+>> LFMakedown
+>>> LFMakedown
+>>> 
 >>> LFMakedown
 
-[查看代码](#test)
-[macDown](#macDown);
+[查看代码](#test) 
 
->     LFMakedown
+[macDown](#macDown)
+
+> `LFMakedown`
 
 ![这是一张图片](http://ot22ho57o.bkt.clouddn.com/%E8%89%BE%E6%96%AF.jpg_makedown)
 
 **LFMakedown**
 
-
 *LFMakedown*  
+
 _LFMakedown_  
 
 
-~~LFMakedown~~  
+~~LFMakedown~~
 
 | LFMakedown | LFMakedown | LFMakedown |
 | :--------- | :--------: | ---------: |
@@ -58,7 +79,7 @@ _LFMakedown_
 
 `LFMakedown`
 
-### <a id="test"></a> 事例代码
+### <a id="test">事例代码</a> 事例代码
 
 ```objc
 - (UIImage *)imageFromColor:(UIColor *)color  
@@ -73,16 +94,14 @@ _LFMakedown_
     return image;
 }
 ```
-如果想获得[更多][1]或者点击![][2]
+如果想获得[更多][1]![][2]
 
 [1]: https://www.baidu.com
 [2]: file:///Users/liufeng/Pictures/艾斯.jpg
 
 `- (UIImage *)imageFromColor:(UIColor *)color`
 
-hello^[hello]
-
-[hello]: https://www.baidu.com
+hello^[上标][1]
 
 
 # <a id="macDown"></a> MacDown

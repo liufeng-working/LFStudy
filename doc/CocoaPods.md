@@ -215,7 +215,7 @@ end
 	pod 'test', :podspec => 'url'
 	
 ### 不更新podspec
-CocoaPods在执行pod install和pod update时，会默认先更新podspec索引。使用`--no-repo-update`参数可以禁止其做索引跟心操作。如下：
+CocoaPods在执行pod install和pod update时，会默认先更新podspec索引。使用`--no-repo-update`参数可以禁止其做索引更新操作。如下：
 
 	$pod install --no-repo-update
 	$pod update --no-repo-update
